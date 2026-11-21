@@ -1,0 +1,2394 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sari Selaras | Jasa Maklon Teh Celup Herbal Terpercaya di Yogyakarta</title>
+  <meta name="description" content="Jasa maklon teh celup herbal di Yogyakarta. Dari bahan mentah hingga produk siap jual, dikerjakan tenaga farmasi profesional, formulasi custom, MOQ fleksibel, legalitas lengkap.">
+  <meta name="keywords" content="maklon teh celup, jasa maklon teh herbal jogja, pabrik teh celup yogyakarta, sari selaras, maklon herbal bantul, teh celup herbal">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* Floating WhatsApp Button */
+    .float-wa {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 70px;
+      right: 15px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+    .float-wa:hover {
+      background-color: #1ebe57;
+      color: #fff;
+      transform: scale(1.08);
+    }
+    /* Logo header — crop ikon dari logo.png asli + teks putih */
+    .header .logo img { display: none; }
+    .ss-logo-icon {
+      width: 42px;
+      height: 42px;
+      background-image: url('assets/img/logo.png');
+      background-size: auto 42px;        /* tinggi pas 42px, lebar proporsional */
+      background-position: left center;  /* ambil bagian kiri = ikon belah ketupat */
+      background-repeat: no-repeat;
+      flex-shrink: 0;
+    }
+    .ss-logo-text {
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      line-height: 1;
+      white-space: nowrap;
+    }
+    .header.scrolled .ss-logo-icon { width: 36px; height: 36px; background-size: auto 36px; }
+    .header.scrolled .ss-logo-text { font-size: 1.05rem; }
+
+    /* ============================================================
+       STYLE ENHANCEMENTS — diadaptasi dari file contoh
+       Tidak mengubah layout/desain, hanya menambah efek interaktif
+       ============================================================ */
+
+    /* ── 1. HEADER: warna hijau teh soft + transparan → solid saat scroll ── */
+    .header {
+      --background-color: #2d5a27;
+      transition: background-color 0.4s ease, box-shadow 0.4s ease;
+    }
+    .header.scrolled {
+      background-color: #1e3d1a !important;
+      box-shadow: 0 2px 24px rgba(0,0,0,0.30) !important;
+    }
+    /* Logo mengecil saat scroll */
+    .header.scrolled .logo img {
+      max-height: 32px;
+    }
+    /* Teks nav terbaca di atas hijau */
+    .header .navmenu a,
+    .header .navmenu a:focus {
+      color: rgba(255,255,255,0.92);
+    }
+    .header .navmenu li:hover > a,
+    .header .navmenu .active,
+    .header .navmenu .active:focus {
+      color: #ffffff;
+    }
+    /* Garis bawah nav — hijau muda kontras di atas header hijau */
+    .header .navmenu > ul > li > a::before {
+      background-color: #86efac !important;
+    }
+    .header.scrolled .btn-getstarted {
+      border-color: rgba(255,255,255,0.4);
+    }
+
+    /* ── 2. NAV DROPDOWN: dark green + border-left aksen saat hover ── */
+    @media (min-width: 1200px) {
+      /* Dropdown: dark green background + border-left aksen */
+      .navmenu .dropdown ul {
+        background: #1a3317 !important;
+        border-top: 3px solid #4ade80 !important;
+        box-shadow: 0 8px 30px rgba(0,0,0,0.30) !important;
+        border-radius: 0 0 8px 8px !important;
+      }
+      .navmenu .dropdown ul a {
+        color: #c8e6c9 !important;
+        border-left: 3px solid transparent;
+        transition: all 0.2s;
+      }
+      .navmenu .dropdown ul a:hover {
+        border-left-color: #86efac !important;
+        background: rgba(134,239,172,0.10) !important;
+        color: #86efac !important;
+        padding-left: 28px !important;
+      }
+    }
+
+    /* ── 3. SERVICE CARDS: lift + shadow teal saat hover ── */
+    #services .service-item {
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+      background-color: #ffffff;
+    }
+    #services .service-item:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 16px 40px rgba(16,185,129,0.15) !important;
+      background-color: #f0fdf4 !important;
+    }
+    #services .service-item:hover h3 {
+      color: #198754;
+      transition: color 0.2s;
+    }
+
+    /* ── 4. KEUNGGULAN CARDS: lift + shadow saat hover ── */
+    #why-us .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    #why-us .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 16px 36px rgba(25,135,84,0.14) !important;
+    }
+
+    /* ── 5. PRODUK CARDS: lift + shadow saat hover ── */
+    #portfolio .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    #portfolio .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 16px 36px rgba(25,135,84,0.14) !important;
+    }
+    #portfolio .card:hover .card-title {
+      color: #198754;
+      transition: color 0.2s;
+    }
+
+    /* ── 6. PACKAGING CARDS: lift saat hover ── */
+    #packaging .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    #packaging .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 16px 36px rgba(25,135,84,0.13) !important;
+    }
+
+    /* ── 7. CONTACT info-item icon: solid aksen saat hover ── */
+    .contact .info-item i {
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+    .contact .info-item:hover i {
+      background: #198754 !important;
+      color: #ffffff !important;
+    }
+
+    /* ── 8. FOOTER social links: border + warna aksen saat hover ── */
+    .footer .social-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.25);
+      color: rgba(255,255,255,0.65);
+      transition: color 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+      font-size: 15px;
+      text-decoration: none;
+    }
+    .footer .social-links a:hover {
+      color: #ffffff;
+      border-color: #198754;
+      background: #198754;
+    }
+
+    /* ── 9. SECTION TITLE: hapus garis dua lapis ── */
+    .section-title h2 {
+      position: relative;
+      padding-bottom: 20px;
+    }
+
+    /* ── 10. SCROLL-TOP: warna brand ── */
+    .scroll-top {
+      background-color: #198754 !important;
+      transition: background 0.3s ease, bottom 0.4s ease, opacity 0.4s ease;
+    }
+    .scroll-top:hover {
+      background-color: #157347 !important;
+    }
+
+    /* ── 11. WHY-US keunggulan image: subtle zoom saat hover ── */
+    #why-us .card img {
+      transition: transform 0.4s ease;
+    }
+    #why-us .card:hover img {
+      transform: scale(1.04);
+    }
+
+    .ss-lang-sep { color: rgba(255,255,255,0.35); font-size: 0.75rem; }
+
+    .ss-header-actions { flex-shrink: 0; }
+    .ss-search-btn {
+      background: transparent; border: none;
+      color: rgba(255,255,255,0.88); width: 34px; height: 34px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; cursor: pointer; border-radius: 6px;
+      transition: color 0.2s, background 0.2s;
+    }
+    .ss-search-btn:hover { color: #ffffff; background: rgba(255,255,255,0.12); }
+    .ss-lang { gap: 4px !important; }
+    .ss-lang-btn {
+      color: rgba(255,255,255,0.72); font-size: 0.82rem; font-weight: 600;
+      text-decoration: none; letter-spacing: 0.5px; padding: 2px 4px;
+      border-radius: 4px; transition: color 0.2s, background 0.2s;
+    }
+    .ss-lang-btn.active, .ss-lang-btn:hover { color: #ffffff; background: rgba(255,255,255,0.15); }
+
+    /* Search bar dropdown */
+    .ss-search-bar {
+      display: none; align-items: center;
+      background: rgba(14,33,14,0.97);
+      border-top: 1px solid rgba(134,239,172,0.18);
+      padding: 10px 0;
+      position: relative;
+    }
+    .ss-search-bar.open { display: flex; }
+    .ss-search-bar input {
+      flex: 1; background: transparent; border: none; outline: none;
+      color: #ffffff; font-size: 0.95rem; font-family: 'Poppins', sans-serif;
+    }
+    .ss-search-bar input::placeholder { color: rgba(255,255,255,0.38); }
+    .ss-search-bar .bi-search { color: #86efac; font-size: 1rem; flex-shrink: 0; }
+    #ssSearchClose {
+      background: transparent; border: none;
+      color: rgba(255,255,255,0.45); font-size: 1rem; cursor: pointer;
+      transition: color 0.2s; flex-shrink: 0; padding: 0 4px;
+    }
+    #ssSearchClose:hover { color: #86efac; }
+
+    /* Search results dropdown */
+    #ssSearchResults {
+      position: absolute;
+      top: 100%; left: 0; right: 0;
+      background: #0e210e;
+      border: 1px solid rgba(134,239,172,0.22);
+      border-top: none;
+      border-radius: 0 0 10px 10px;
+      max-height: 320px;
+      overflow-y: auto;
+      z-index: 9999;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.45);
+      display: none;
+    }
+    #ssSearchResults.show { display: block; }
+    .ss-result-item {
+      display: flex; align-items: center; gap: 12px;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      transition: background 0.15s;
+      text-decoration: none;
+    }
+    .ss-result-item:last-child { border-bottom: none; }
+    .ss-result-item:hover, .ss-result-item.focused {
+      background: rgba(134,239,172,0.10);
+    }
+    .ss-result-icon {
+      width: 32px; height: 32px; border-radius: 8px;
+      background: rgba(74,222,128,0.15);
+      color: #86efac; font-size: 0.9rem;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .ss-result-name {
+      font-size: 0.88rem; font-weight: 600;
+      color: #ffffff; line-height: 1.2;
+    }
+    .ss-result-desc {
+      font-size: 0.74rem; color: rgba(255,255,255,0.45); margin-top: 1px;
+    }
+    .ss-result-match {
+      margin-left: auto; flex-shrink: 0;
+      font-size: 0.7rem; color: #86efac;
+      background: rgba(74,222,128,0.12);
+      padding: 2px 8px; border-radius: 999px;
+      font-weight: 600;
+    }
+    .ss-result-empty {
+      padding: 14px 20px;
+      color: rgba(255,255,255,0.4);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    /* ── 12. BTN-GETSTARTED (CTA header): pulse ring saat hover ── */
+    .btn-getstarted {
+      transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease !important;
+    }
+    .btn-getstarted:hover {
+      box-shadow: 0 0 0 4px rgba(37,211,102,0.22) !important;
+    }
+
+    /* ---- Justify paragraf di section-section yang diminta ---- */
+
+    /* Tentang Kami: paragraf italic pembuka & kalimat panjang di .content */
+    #about .fst-italic,
+    #about .content > p:not(.text-success) {
+      text-align: justify;
+    }
+    /* Tentang Kami: teks deskripsi di tiap list item */
+    #about .list-unstyled li span[data-lang-key] {
+      text-align: justify;
+      display: inline;
+    }
+    #about .list-unstyled li {
+      text-align: justify;
+    }
+
+    /* Jasa Maklon Teh: kalimat penjelas section-title & tiap kartu service */
+    #services .section-title > p,
+    #services .service-item > p {
+      text-align: justify;
+    }
+
+    /* Keunggulan: kalimat penjelas section-title & keterangan tiap kartu */
+    #why-us .section-title > p,
+    #why-us .card p.small {
+      text-align: justify;
+    }
+
+    /* Produk: keterangan penjelas tiap kartu produk */
+    #portfolio .card-text {
+      text-align: justify;
+    }
+
+    /* Footer: deskripsi singkat perusahaan */
+    .footer .footer-about p {
+      text-align: justify;
+    }
+
+    /* Kontak: alamat rumah produksi */
+    .contact .info-item p {
+      text-align: justify;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="#hero" class="logo d-flex align-items-center gap-2 text-decoration-none" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">
+        <div class="ss-logo-icon" aria-hidden="true"></div>
+        <span class="ss-logo-text">Sari Selaras</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active" data-lang-key="nav-beranda">Beranda</a></li>
+          <li><a href="#about" data-lang-key="nav-tentang">Tentang Kami</a></li>
+          <li><a href="#services" data-lang-key="nav-jasa">Jasa Maklon Teh</a></li>
+          <li><a href="#why-us" data-lang-key="nav-unggulan">Keunggulan</a></li>
+          <li><a href="#team" data-lang-key="nav-tim">Tim Kami</a></li>
+          <li><a href="#portfolio" data-lang-key="nav-produk">Produk</a></li>
+          <li><a href="#contact" data-lang-key="nav-kontak">Kontak</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <!-- Search + Lang -->
+      <div class="ss-header-actions d-flex align-items-center gap-2">
+        <button class="ss-search-btn" id="ssSearchBtn" aria-label="Cari">
+          <i class="bi bi-search"></i>
+        </button>
+        <div class="ss-lang d-none d-lg-flex align-items-center gap-1">
+          <a href="#" class="ss-lang-btn active" id="ssLangID" onclick="ssSetLang('id');return false;">ID</a>
+          <span class="ss-lang-sep">|</span>
+          <a href="#" class="ss-lang-btn" id="ssLangEN" onclick="ssSetLang('en');return false;">EN</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Search bar dropdown -->
+    <div id="ssSearchBar" class="ss-search-bar">
+      <div class="container-fluid container-xl d-flex align-items-center">
+        <i class="bi bi-search me-3"></i>
+        <input type="text" id="ssSearchInput" data-lang-key="search-placeholder" placeholder="Cari layanan, produk, informasi..." aria-label="Pencarian" autocomplete="off">
+        <button id="ssSearchClose" aria-label="Tutup"><i class="bi bi-x-lg"></i></button>
+      </div>
+      <!-- Dropdown results -->
+      <div id="ssSearchResults" role="listbox" aria-label="Hasil Pencarian"></div>
+    </div>
+  </header><!-- End Header -->
+
+  <main class="main">
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero section light-background" style="position:relative; overflow:hidden;">
+
+      <!-- Background image dengan overlay transparan -->
+      <div class="hero-bg-overlay" aria-hidden="true"></div>
+
+      <style>
+        /* Paralax background hero */
+        #hero { z-index: 0; }
+        .hero-bg-overlay {
+          position: absolute;
+          inset: 0;
+          background-image: url('assets/img/why-tea.jpg');
+          background-size: cover;
+          background-position: center 40%;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          opacity: 0.13;
+          z-index: 0;
+          pointer-events: none;
+          transform: scale(1.04);
+          transition: opacity 0.4s ease;
+        }
+        /* Pastikan konten hero tetap di atas overlay */
+        #hero .container { position: relative; z-index: 1; }
+
+        /* Ornamen sudut dekoratif */
+        #hero::before {
+          content: '';
+          position: absolute;
+          top: -60px; right: -60px;
+          width: 300px; height: 300px;
+          background: radial-gradient(circle, rgba(134,239,172,0.18) 0%, transparent 70%);
+          border-radius: 50%;
+          z-index: 0;
+          pointer-events: none;
+        }
+        #hero::after {
+          content: '';
+          position: absolute;
+          bottom: -80px; left: -60px;
+          width: 350px; height: 350px;
+          background: radial-gradient(circle, rgba(74,222,128,0.12) 0%, transparent 70%);
+          border-radius: 50%;
+          z-index: 0;
+          pointer-events: none;
+        }
+      </style>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <span class="badge bg-success-subtle text-success mb-2 px-3 py-2 rounded-pill" data-lang-key="hero-badge">Spesialis Maklon Teh Celup Herbal</span>
+              <h1 data-lang-key="hero-h1">Wujudkan Brand Teh Celup Herbal Anda Sendiri dengan Layanan Maklon Terpercaya</h1>
+              <p class="mt-3" data-lang-key="hero-p">Proses mudah, Legalitas lengkap, Formulasi sesuai keinginan Anda, Mulai dengan modal terjangkau.</p>
+
+              <div class="hero-features mt-4 row text-center g-2">
+                <div class="col-4">
+                  <div class="hf-card p-2 rounded-3 bg-white shadow-sm h-100">
+                    <i class="bi bi-flask text-success fs-4"></i>
+                    <h6 class="fw-bold mt-1 mb-0 small" data-lang-key="feat-formula">Formula Custom</h6>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="hf-card p-2 rounded-3 bg-white shadow-sm h-100">
+                    <i class="bi bi-box-seam text-success fs-4"></i>
+                    <h6 class="fw-bold mt-1 mb-0 small" data-lang-key="feat-kemasan">Kemasan Kekinian</h6>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="hf-card p-2 rounded-3 bg-white shadow-sm h-100">
+                    <i class="bi bi-shield-check text-success fs-4"></i>
+                    <h6 class="fw-bold mt-1 mb-0 small" data-lang-key="feat-produksi">Produksi Terstandar</h6>
+                  </div>
+                </div>
+              </div>
+
+              <style>
+                .hf-card {
+                  transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+                  cursor: default;
+                }
+                .hf-card:hover {
+                  background: #dcfce7 !important;
+                  box-shadow: 0 6px 18px rgba(25,135,84,0.15) !important;
+                  transform: translateY(-3px);
+                }
+                .hf-card:hover i { color: #15803d !important; }
+              </style>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
+            <!-- Image Slider -->
+            <div class="hero-slider-wrap position-relative">
+              <div class="hero-img-slider rounded-4 shadow overflow-hidden" style="aspect-ratio:1/1; max-width:380px; margin:0 auto;">
+                <div class="hero-slide-track">
+                  <a href="assets/img/products/extra-antiobesitas.jpg" class="hero-slide-link ss-lightbox" data-gallery="hero-sari-selaras" data-glightbox="title: Herbal Anti-Obesitas; description: Produk teh celup herbal anti-obesitas hasil maklon Sari Selaras."><img src="assets/img/products/extra-antiobesitas.jpg"  class="hero-slide-img" alt="Herbal Anti-Obesitas"><div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div></a>
+                  <a href="assets/img/products/extra-antioxidant.jpg"   class="hero-slide-link ss-lightbox" data-gallery="hero-sari-selaras" data-glightbox="title: Antioxidant Beauty Tea; description: Teh celup antioksidan untuk kecantikan kulit alami hasil maklon Sari Selaras."><img src="assets/img/products/extra-antioxidant.jpg"   class="hero-slide-img" alt="Antioxidant Beauty Tea"><div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div></a>
+                  <a href="assets/img/products/extra-glowing.jpg"       class="hero-slide-link ss-lightbox" data-gallery="hero-sari-selaras" data-glightbox="title: Glowing Alami; description: Teh celup herbal untuk kulit glowing alami dari dalam hasil maklon Sari Selaras."><img src="assets/img/products/extra-glowing.jpg"       class="hero-slide-img" alt="Glowing Alami"><div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div></a>
+                  <a href="assets/img/products/extra-herbatrek.jpg"     class="hero-slide-link ss-lightbox" data-gallery="hero-sari-selaras" data-glightbox="title: HerbaTrek; description: Produk teh herbal premium HerbaTrek hasil maklon Sari Selaras."><img src="assets/img/products/extra-herbatrek.jpg"     class="hero-slide-img" alt="HerbaTrek"><div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div></a>
+                  <a href="assets/img/products/extra-kumiskucing.jpg"   class="hero-slide-link ss-lightbox" data-gallery="hero-sari-selaras" data-glightbox="title: Kumis Kucing; description: Teh celup herbal kumis kucing untuk kesehatan ginjal dan saluran kemih hasil maklon Sari Selaras."><img src="assets/img/products/extra-kumiskucing.jpg"   class="hero-slide-img" alt="Kumis Kucing"><div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div></a>
+                </div>
+              </div>
+              <!-- Prev / Next -->
+              <button class="hero-sl-btn hero-sl-prev" aria-label="Sebelumnya"><i class="bi bi-chevron-left"></i></button>
+              <button class="hero-sl-btn hero-sl-next" aria-label="Berikutnya"><i class="bi bi-chevron-right"></i></button>
+              <!-- Dots -->
+              <div class="hero-sl-dots">
+                <span class="hero-sl-dot active"></span>
+                <span class="hero-sl-dot"></span>
+                <span class="hero-sl-dot"></span>
+                <span class="hero-sl-dot"></span>
+                <span class="hero-sl-dot"></span>
+              </div>
+            </div>
+
+            <style>
+              .hero-img-slider { position:relative; width:100%; max-width:380px; margin:0 auto; }
+              .hero-slide-track { display:flex; width:100%; height:100%; transition:transform 0.5s cubic-bezier(0.4,0,0.2,1); }
+              .hero-slide-img   { min-width:100%; width:100%; height:100%; object-fit:cover; object-position:center; flex-shrink:0; }
+              /* Wrapper anchor per slide — wajib display:flex agar track tetap horizontal */
+              .hero-slide-link  { display:flex; min-width:100%; flex-shrink:0; position:relative; overflow:hidden; cursor:zoom-in; }
+
+              .hero-sl-btn {
+                position:absolute; top:50%; transform:translateY(-50%);
+                background:rgba(255,255,255,0.85); border:none; border-radius:50%;
+                width:32px; height:32px; display:flex; align-items:center; justify-content:center;
+                font-size:0.85rem; color:#1e3d1a; cursor:pointer; z-index:5;
+                transition:background 0.2s, color 0.2s; box-shadow:0 2px 8px rgba(0,0,0,0.15);
+              }
+              .hero-sl-btn:hover { background:#198754; color:#fff; }
+              .hero-sl-prev { left:8px; }
+              .hero-sl-next { right:8px; }
+
+              .hero-sl-dots {
+                position:absolute; bottom:10px; left:50%; transform:translateX(-50%);
+                display:flex; gap:5px; z-index:5;
+              }
+              .hero-sl-dot {
+                width:6px; height:6px; border-radius:50%;
+                background:rgba(255,255,255,0.55); cursor:pointer;
+                transition:background 0.3s, transform 0.3s;
+              }
+              .hero-sl-dot.active { background:#ffffff; transform:scale(1.3); }
+
+              /* Hover overlay untuk slide hero */
+              .hero-slide-link:hover .pf-zoom-overlay { opacity: 1; }
+              .hero-slide-link:hover .hero-slide-img  { transform: scale(1.04); transition: transform 0.4s ease; }
+
+              @media (max-width:991px) {
+                .hero-img-slider { max-width:300px; }
+              }
+              @media (max-width:767px) {
+                .hero-img-slider { max-width:100%; }
+              }</style>
+
+            <script>
+              (function(){
+                var track  = document.querySelector('.hero-slide-track');
+                var dots   = document.querySelectorAll('.hero-sl-dot');
+                var total  = dots.length;
+                var cur    = 0;
+                var timer;
+
+                function goTo(n){
+                  cur = (n + total) % total;
+                  track.style.transform = 'translateX(-' + (cur * 100) + '%)';
+                  dots.forEach(function(d,i){ d.classList.toggle('active', i===cur); });
+                }
+                function next(){ goTo(cur+1); }
+                function reset(){ clearInterval(timer); timer = setInterval(next, 3500); }
+
+                reset();
+                document.querySelector('.hero-sl-prev').addEventListener('click', function(){ goTo(cur-1); reset(); });
+                document.querySelector('.hero-sl-next').addEventListener('click', function(){ goTo(cur+1); reset(); });
+                dots.forEach(function(d,i){ d.addEventListener('click', function(){ goTo(i); reset(); }); });
+
+                /* Swipe support */
+                var startX = 0;
+                var wrap = document.querySelector('.hero-img-slider');
+                wrap.addEventListener('touchstart', function(e){ startX = e.touches[0].clientX; }, {passive:true});
+                wrap.addEventListener('touchend',   function(e){
+                  var diff = startX - e.changedTouches[0].clientX;
+                  if(Math.abs(diff) > 40){ diff > 0 ? goTo(cur+1) : goTo(cur-1); reset(); }
+                }, {passive:true});
+              })();
+            </script>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Hero Section -->
+
+    <!-- ======= About / Tentang Kami Section ======= -->
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4 align-items-center">
+
+          <!-- Gambar diperkecil: col-lg-5 → col-lg-4, max-width dibatasi -->
+          <div class="col-lg-4 col-md-5" data-aos="fade-right">
+            <a href="assets/img/produk%20tentang%20kami.jpeg"
+               class="ss-lightbox d-block"
+               data-gallery="about-sari-selaras"
+               data-glightbox="title: Produk Maklon Sari Selaras; description: Produk teh celup herbal dengan brand Anda sendiri — dari bahan mentah hingga siap jual."
+               style="cursor:zoom-in;">
+              <div style="position:relative; overflow:hidden; border-radius:1rem; max-width:340px; margin:0 auto;">
+                <img src="assets/img/produk tentang kami.jpeg"
+                     class="img-fluid shadow-sm"
+                     style="width:100%; display:block; transition:transform 0.4s ease;"
+                     alt="Produk Maklon Sari Selaras"
+                     id="imgAboutMain">
+                <div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Konten teks: col-lg-8, lebih lega -->
+          <div class="col-lg-8 col-md-7 content" data-aos="fade-left">
+            <h3 data-lang-key="about-h3">Punya Brand Teh Celup Sendiri Tidak Harus Bikin Pabrik</h3>
+            <p class="text-success fw-semibold"><i class="bi bi-info-circle me-1"></i><span data-lang-key="about-info">Karena biaya operasionalnya bersifat fixed cost, Anda tidak perlu menanggung investasi mesin maupun tenaga produksi.</span></p>
+            <p class="fst-italic mt-2" data-lang-key="about-italic">
+              Teh celup herbal adalah solusi gaya hidup sehat yang praktis. Dengan tren konsumsi herbal yang terus meningkat, Anda bisa memiliki produk dengan merek sendiri tanpa harus pusing memikirkan mesin dan tenaga produksi. Seluruh proses dari bahan mentah hingga produk jadi kami kerjakan terintegrasi sehingga kualitasnya terjaga.
+            </p>
+            <ul class="list-unstyled mt-3">
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong data-lang-key="about-li1">Fokus Pengembangan Brand & Marketing:</strong> <span data-lang-key="about-li1-desc">Urusan bahan baku, peracikan, hingga pengemasan kami yang tangani.</span></li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong data-lang-key="about-li2">Dapat HPP Pabrik Lebih Ekonomis:</strong> <span data-lang-key="about-li2-desc">Efisiensi biaya berkat jaringan supplier bahan herbal terverifikasi.</span></li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong data-lang-key="about-li3">Formulasi Berbasis Resep Saintifik:</strong> <span data-lang-key="about-li3-desc">Dikembangkan bersama tenaga farmasi berpengalaman sesuai kebutuhan konsumen Anda.</span></li>
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong data-lang-key="about-li4">Pendampingan Legalitas & Kemasan:</strong> <span data-lang-key="about-li4-desc">Siap membantu mulai dari konsep desain hingga pendampingan perizinan edar.</span></li>
+            </ul>
+            <div class="mt-4">
+              <a href="https://wa.me/6281328441901?text=Halo%20Sari%20Selaras,%20saya%20ingin%20konsultasi%20maklon%20teh%20celup." target="_blank" class="btn btn-success">
+                <span data-lang-key="about-cta">Konsultasi Sekarang</span> <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services / Jasa Maklon Teh Celup Section ======= -->
+    <section id="services" class="services section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-lang-key="services-h2">Jasa Maklon Teh Celup Herbal</h2>
+        <p data-lang-key="services-p">Teh celup herbal adalah solusi bagi masyarakat suka minum herbal tetapi praktis dalam penyajian. Dengan jasa maklon teh celup herbal, Anda bisa membuat produk ini tanpa harus investasi sarana produksi &#8212; cukup hubungi kami untuk mewujudkan ide Anda.</p>
+      </div>
+
+      <!-- Service cards -->
+      <div class="container">
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative p-4 bg-white rounded-4 shadow-sm h-100">
+              <div class="icon mb-3 text-success fs-2">
+                <i class="bi bi-cup-hot"></i>
+              </div>
+              <h3 data-lang-key="srv1-h">Maklon Teh Celup Herbal</h3>
+              <p data-lang-key="srv1-p">Produksi teh celup single-ingredient maupun racikan multi-herbal (tea bag & tag/benang) dengan penyeduhan praktis yang menjaga aroma dan khasiat alami.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative p-4 bg-white rounded-4 shadow-sm h-100">
+              <div class="icon mb-3 text-success fs-2">
+                <i class="bi bi-flask"></i>
+              </div>
+              <h3 data-lang-key="srv2-h">R&D Formulasi Custom</h3>
+              <p data-lang-key="srv2-p">Pengembangan formula khusus sesuai target pasar Anda (Diet/Slimming, Kesehatan Kulit/Jerawat, Promil/PCOS, Jamu Saintifik, hingga Teh Relaksasi).</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative p-4 bg-white rounded-4 shadow-sm h-100">
+              <div class="icon mb-3 text-success fs-2">
+                <i class="bi bi-box-seam"></i>
+              </div>
+              <h3 data-lang-key="srv3-h">Pengemasan & Alufoil Custom</h3>
+              <p data-lang-key="srv3-p">Layanan pengemasan primer kantong aluminium foil higienis serta kemasan sekunder berupa Standing Pouch, Inner Box (Dus) full printing, maupun Karton sesuai identitas brand Anda.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative p-4 bg-white rounded-4 shadow-sm h-100">
+              <div class="icon mb-3 text-success fs-2">
+                <i class="bi bi-palette"></i>
+              </div>
+              <h3 data-lang-key="srv4-h">Desain Kemasan Produk</h3>
+              <p data-lang-key="srv4-p">Belum punya desain? Tim kami siap membantu merancang konsep visual kemasan yang menarik, profesional, dan sesuai standar regulasi pelabelan produk.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative p-4 bg-white rounded-4 shadow-sm h-100">
+              <div class="icon mb-3 text-success fs-2">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <h3 data-lang-key="srv5-h">Quality Control Terstandar</h3>
+              <p data-lang-key="srv5-p">Setiap tahapan mulai dari pemilihan simplisia, pengeringan, penggilingan, pencampuran, hingga pengemasan diawasi ketat oleh tenaga farmasi profesional.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative p-4 bg-white rounded-4 shadow-sm h-100">
+              <div class="icon mb-3 text-success fs-2">
+                <i class="bi bi-file-earmark-medical"></i>
+              </div>
+              <h3 data-lang-key="srv6-h">Konsultasi Legalitas Produk</h3>
+              <p data-lang-key="srv6-p">Pendampingan dokumen dan spesifikasi teknis produk untuk mendukung pengurusan izin edar (P-IRT / BPOM / Halal) agar produk Anda aman dipasarkan luas.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Why Us / Keunggulan Section ======= -->
+    <section id="why-us" class="why-us section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-lang-key="why-h2">Keunggulan Maklon di Sari Selaras</h2>
+        <p data-lang-key="why-p">Dari bahan mentah hingga menjadi produk jadi kami kerjakan terintegrasi &#8212; sehingga kualitasnya terjaga</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-7">
+            <div class="row gy-4">
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="card why-card border-0 shadow-sm p-3 h-100">
+                  <a href="assets/img/berpengalaman.jpg" class="ss-lightbox d-block mb-3" data-gallery="whyus-sari-selaras" data-glightbox="title: Tenaga Farmasi Berpengalaman; description: Formulasi dan pengawasan mutu ditangani langsung oleh tenaga farmasi berpengalaman di bidang pengolahan herbal." style="cursor:zoom-in;">
+                    <div style="position:relative; overflow:hidden; border-radius:0.5rem;">
+                      <img src="assets/img/berpengalaman.jpg" class="img-fluid why-card-img" alt="Tenaga Farmasi Berpengalaman" style="display:block;">
+                      <div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div>
+                    </div>
+                  </a>
+                  <h5 class="fw-bold text-success" data-lang-key="why1-h">01. Dikerjakan Tenaga Farmasi Berpengalaman</h5>
+                  <p class="mb-0 small" data-lang-key="why1-p">Formulasi dan pengawasan mutu ditangani langsung oleh tenaga farmasi berpengalaman di bidang pengolahan herbal.</p>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="card why-card border-0 shadow-sm p-3 h-100">
+                  <a href="assets/img/facility.jpg" class="ss-lightbox d-block mb-3" data-gallery="whyus-sari-selaras" data-glightbox="title: Fasilitas Produksi Terstandar; description: Fasilitas produksi terstandar dengan mesin pengemas teh celup otomatis untuk menjaga kebersihan, takaran presisi, dan kerapatan seal." style="cursor:zoom-in;">
+                    <div style="position:relative; overflow:hidden; border-radius:0.5rem;">
+                      <img src="assets/img/facility.jpg" class="img-fluid why-card-img" alt="Fasilitas Produksi Terstandar" style="display:block;">
+                      <div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div>
+                    </div>
+                  </a>
+                  <h5 class="fw-bold text-success" data-lang-key="why2-h">02. Fasilitas &amp; Mesin Produksi Terstandar</h5>
+                  <p class="mb-0 small" data-lang-key="why2-p">Fasilitas produksi terstandar dengan mesin pengemas teh celup otomatis untuk menjaga kebersihan, takaran presisi, dan kerapatan seal.</p>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="card why-card border-0 shadow-sm p-3 h-100">
+                  <a href="assets/img/icon-natural.png" class="ss-lightbox d-block mb-3" data-gallery="whyus-sari-selaras" data-glightbox="title: Bahan Baku Alami; description: Bahan baku segar dari jaringan supplier herbal terverifikasi untuk menjaga kualitas produk." style="cursor:zoom-in;">
+                    <div style="position:relative; overflow:hidden; border-radius:0.5rem;">
+                      <img src="assets/img/icon-natural.png" class="img-fluid rounded-3" style="height:120px;object-fit:contain;display:block;margin:0 auto;" alt="Bahan Baku Alami">
+                      <div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div>
+                    </div>
+                  </a>
+                  <h5 class="fw-bold text-success" data-lang-key="why3-h">03. Bahan Baku Segar &amp; Proses Terintegrasi</h5>
+                  <p class="mb-0 small" data-lang-key="why3-p">Bahan baku segar dari jaringan supplier herbal terverifikasi. Dari bahan mentah hingga produk jadi dikerjakan terintegrasi sehingga kualitas terjaga.</p>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="card why-card border-0 shadow-sm p-3 h-100">
+                  <a href="assets/img/icon-best-price.png" class="ss-lightbox d-block mb-3" data-gallery="whyus-sari-selaras" data-glightbox="title: MOQ Fleksibel & HPP Kompetitif; description: Minimum order fleksibel, ramah bagi pebisnis pemula dan UMKM dengan HPP yang lebih rendah." style="cursor:zoom-in;">
+                    <div style="position:relative; overflow:hidden; border-radius:0.5rem;">
+                      <img src="assets/img/icon-best-price.png" class="img-fluid rounded-3" style="height:120px;object-fit:contain;display:block;margin:0 auto;" alt="HPP Kompetitif">
+                      <div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div>
+                    </div>
+                  </a>
+                  <h5 class="fw-bold text-success" data-lang-key="why4-h">04. MOQ Fleksibel &amp; HPP Lebih Rendah</h5>
+                  <p class="mb-0 small" data-lang-key="why4-p">Minimum order fleksibel, ramah bagi pebisnis pemula &amp; UMKM. Produksi efisien dengan HPP lebih rendah sehingga margin keuntungan brand Anda tetap optimal.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5" data-aos="fade-left">
+            <a href="assets/img/profesional.jpg" class="ss-lightbox d-block" data-gallery="whyus-sari-selaras" data-glightbox="title: Proses Produksi Profesional; description: Seluruh proses produksi dikerjakan secara profesional dan terstandar oleh tim Sari Selaras." style="cursor:zoom-in;">
+              <div style="position:relative; overflow:hidden; border-radius:1rem;">
+                <img src="assets/img/profesional.jpg" class="img-fluid shadow" style="display:block; transition:transform 0.4s ease;" alt="Proses Produksi Profesional Sari Selaras">
+                <div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <style>
+        .why-card-img {
+          width: 100%; height: auto;
+          max-height: 180px; object-fit: contain;
+          background: #f8fafc; padding: 6px; border-radius: 8px;
+        }
+        .why-card {
+          transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+          background-color: #ffffff;
+        }
+        .why-card:hover {
+          transform: translateY(-8px);
+          box-shadow: 0 16px 36px rgba(16,185,129,0.14) !important;
+          background-color: #f0fdf4 !important;
+        }
+        .why-card:hover h5 {
+          color: #15803d !important;
+          transition: color 0.2s;
+        }
+        .why-card img { transition: transform 0.4s ease; }
+        .why-card:hover img { transform: scale(1.03); }
+      </style>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Team / Struktur Organisasi Section ======= -->
+    <!-- ======= Team / Struktur Organisasi Section ======= -->
+    <section id="team" class="team section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-lang-key="team-h2">Struktur Organisasi</h2>
+        <p data-lang-key="team-p">Tim profesional Sari Selaras yang berdedikasi memastikan setiap produk maklon teh celup herbal dikerjakan dengan standar kualitas terbaik</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" id="ssTeamContainer">
+        <style>
+          /* ============================================================
+             STRUKTUR ORGANISASI — SVG connector tree, Sari Selaras
+             ============================================================ */
+          #ssOrgWrap {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 8px 0 32px;
+          }
+          #ssConnSvg {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            pointer-events: none;
+            overflow: visible;
+          }
+          .ss-row-top {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 56px;
+          }
+          .ss-row-top:last-child { margin-bottom: 0; }
+          .ss-row-staff {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: nowrap;
+          }
+          .ss-card {
+            background: #ffffff;
+            border: 2px solid #e5e7eb;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(15,23,42,0.07);
+            padding: 20px 20px 16px 20px;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+            min-width: 210px;
+            max-width: 250px;
+          }
+          .ss-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 28px rgba(16,185,129,0.14) !important;
+            background-color: #f0fdf4 !important;
+          }
+          .ss-card:hover .ss-name {
+            color: #15803d !important;
+            transition: color 0.2s;
+          }
+          .ss-badge {
+            position: absolute;
+            top: 14px; right: 16px;
+            font-size: 0.65rem; font-weight: 700;
+            letter-spacing: 0.04em;
+            padding: 3px 10px; border-radius: 999px;
+          }
+          .ss-icon {
+            width: 46px; height: 46px; border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.35rem; margin-bottom: 12px;
+          }
+          .ss-name  { font-size: 1rem; font-weight: 700; color: #0f172a; margin: 0 0 4px; line-height: 1.3; }
+          .ss-desc  { font-size: 0.78rem; color: #64748b; margin: 0 0 14px; line-height: 1.4; }
+          .ss-divider { border: none; border-top: 1px solid #f1f5f9; margin: 0 0 10px; }
+          .ss-link {
+            display: inline-flex; align-items: center; gap: 5px;
+            font-size: 0.78rem; font-weight: 600;
+            text-decoration: none; cursor: pointer;
+            background: none; border: none; padding: 0;
+            transition: gap 0.15s ease;
+          }
+          .ss-link:hover { gap: 8px; }
+          .ss-link-icon { font-size: 0.7rem; }
+
+          /* Warna per level */
+          .ss-card-owner { border-color: #1e3a5f; min-width: 240px; max-width: 280px; }
+          .ss-card-owner .ss-icon  { background: #eef2ff; color: #1e3a5f; }
+          .ss-card-owner .ss-badge { background: #1e3a5f; color: #ffffff; }
+          .ss-card-owner .ss-link  { color: #1e3a5f; }
+
+          .ss-card-sup { border-color: #f59e0b; min-width: 240px; max-width: 280px; }
+          .ss-card-sup .ss-icon  { background: #fffbeb; color: #d97706; }
+          .ss-card-sup .ss-badge { background: #fef3c7; color: #92400e; }
+          .ss-card-sup .ss-link  { color: #d97706; }
+
+          .ss-card-staff { border-color: #10b981; }
+          .ss-card-staff .ss-icon  { background: #ecfdf5; color: #059669; }
+          .ss-card-staff .ss-badge { background: #d1fae5; color: #065f46; }
+          .ss-card-staff .ss-link  { color: #059669; }
+
+          /* Modal */
+          .ss-modal-overlay {
+            display: none;
+            position: fixed; inset: 0;
+            background: rgba(15,23,42,0.45);
+            z-index: 9999;
+            align-items: center; justify-content: center;
+            padding: 16px;
+          }
+          .ss-modal-overlay.active { display: flex; }
+          .ss-modal {
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 24px 60px rgba(15,23,42,0.22);
+            max-width: 540px; width: 100%;
+            padding: 32px 32px 28px;
+            position: relative;
+            animation: ssModalIn 0.22s ease;
+          }
+          @keyframes ssModalIn {
+            from { opacity: 0; transform: scale(0.93) translateY(10px); }
+            to   { opacity: 1; transform: scale(1)    translateY(0);    }
+          }
+          .ss-modal-close {
+            position: absolute; top: 16px; right: 18px;
+            background: #f1f5f9; border: none; border-radius: 50%;
+            width: 32px; height: 32px; cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.1rem; color: #64748b;
+            transition: background 0.15s;
+          }
+          .ss-modal-close:hover { background: #e2e8f0; color: #0f172a; }
+          .ss-modal-header {
+            display: flex; align-items: center; gap: 14px;
+            margin-bottom: 18px;
+          }
+          .ss-modal-icon {
+            width: 52px; height: 52px; border-radius: 12px; flex-shrink: 0;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.5rem;
+          }
+          .ss-modal-title { font-size: 1.15rem; font-weight: 700; color: #0f172a; margin: 0 0 2px; }
+          .ss-modal-sub   { font-size: 0.8rem; color: #64748b; margin: 0; }
+          .ss-modal-body  { font-size: 0.88rem; color: #374151; line-height: 1.75; text-align: justify; }
+          .ss-modal-body ul { padding-left: 18px; margin: 10px 0 0; }
+          .ss-modal-body li { margin-bottom: 6px; }
+
+          /* Responsive */
+          @media (max-width: 1100px) {
+            .ss-row-staff { gap: 14px; }
+            .ss-card { min-width: 160px; max-width: 200px; padding: 16px 12px 14px; }
+            .ss-card-owner, .ss-card-sup { min-width: 200px; max-width: 240px; }
+          }
+          @media (max-width: 767px) {
+            .ss-row-staff { flex-direction: column; align-items: center; gap: 0; }
+            .ss-card, .ss-card-owner, .ss-card-sup { min-width: unset; max-width: 320px; width: 100%; }
+            .ss-row-top { margin-bottom: 0; }
+            #ssConnSvg { display: none; }
+          }
+        </style>
+
+        <!-- Modal pop-up -->
+        <div class="ss-modal-overlay" id="ssModalOverlay" role="dialog" aria-modal="true" aria-labelledby="ssModalTitle">
+          <div class="ss-modal">
+            <button class="ss-modal-close" id="ssModalClose" aria-label="Tutup"><i class="bi bi-x"></i></button>
+            <div class="ss-modal-header">
+              <div class="ss-modal-icon" id="ssModalIcon"></div>
+              <div>
+                <p class="ss-modal-title" id="ssModalTitle"></p>
+                <p class="ss-modal-sub"  id="ssModalSub"></p>
+              </div>
+            </div>
+            <div class="ss-modal-body" id="ssModalBody"></div>
+          </div>
+        </div>
+
+        <!-- Wrapper bagan -->
+        <div id="ssOrgWrap">
+          <svg id="ssConnSvg" aria-hidden="true"></svg>
+
+          <!-- Level 1: Owner -->
+          <div class="ss-row-top" id="ssRowOwner">
+            <div class="ss-card ss-card-owner" id="ssCardOwner">
+              <span class="ss-badge" data-lang-key="org-badge-owner">Owner</span>
+              <div class="ss-icon"><i class="bi bi-patch-check-fill"></i></div>
+              <p class="ss-name" id="ssNameOwner" data-lang-key="org-name-owner">Owner (Pemilik)</p>
+              <p class="ss-desc" id="ssDescOwner" data-lang-key="org-desc-owner">Pimpinan Tertinggi Perusahaan</p>
+              <hr class="ss-divider">
+              <button class="ss-link" onclick="ssOpenModal('owner')">
+                <span data-lang-key="org-detail-btn">Detail peran</span> <i class="bi bi-box-arrow-up-right ss-link-icon"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Level 2: Supervisor -->
+          <div class="ss-row-top" id="ssRowSup">
+            <div class="ss-card ss-card-sup" id="ssCardSup">
+              <span class="ss-badge" data-lang-key="org-badge-sup">Supervisor</span>
+              <div class="ss-icon"><i class="bi bi-person-badge-fill"></i></div>
+              <p class="ss-name" id="ssNameSup" data-lang-key="org-name-sup">Supervisor</p>
+              <p class="ss-desc" id="ssDescSup" data-lang-key="org-desc-sup">Koordinator Operasional &amp; Produksi</p>
+              <hr class="ss-divider">
+              <button class="ss-link" onclick="ssOpenModal('sup')">
+                <span data-lang-key="org-detail-btn">Detail peran</span> <i class="bi bi-box-arrow-up-right ss-link-icon"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Level 3: 4 Staf -->
+          <div class="ss-row-staff" id="ssRowStaff">
+
+            <div class="ss-card ss-card-staff" id="ssCardProd">
+              <span class="ss-badge" data-lang-key="org-badge-staff">Staf Pelaksana</span>
+              <div class="ss-icon"><i class="bi bi-tools"></i></div>
+              <p class="ss-name" data-lang-key="org-name-prod">Staf Produksi</p>
+              <p class="ss-desc" data-lang-key="org-desc-prod">Operator Mesin &amp; Perakitan</p>
+              <hr class="ss-divider">
+              <button class="ss-link" onclick="ssOpenModal('prod')">
+                <span data-lang-key="org-detail-btn">Detail peran</span> <i class="bi bi-box-arrow-up-right ss-link-icon"></i>
+              </button>
+            </div>
+
+            <div class="ss-card ss-card-staff" id="ssCardQc">
+              <span class="ss-badge" data-lang-key="org-badge-staff">Staf Pelaksana</span>
+              <div class="ss-icon"><i class="bi bi-patch-check"></i></div>
+              <p class="ss-name" data-lang-key="org-name-qc">Staf Quality Control (QC)</p>
+              <p class="ss-desc" data-lang-key="org-desc-qc">Pemeriksaan &amp; Penjaminan Mutu</p>
+              <hr class="ss-divider">
+              <button class="ss-link" onclick="ssOpenModal('qc')">
+                <span data-lang-key="org-detail-btn">Detail peran</span> <i class="bi bi-box-arrow-up-right ss-link-icon"></i>
+              </button>
+            </div>
+
+            <div class="ss-card ss-card-staff" id="ssCardGd">
+              <span class="ss-badge" data-lang-key="org-badge-staff">Staf Pelaksana</span>
+              <div class="ss-icon"><i class="bi bi-box-seam-fill"></i></div>
+              <p class="ss-name" data-lang-key="org-name-gd">Staf Gudang &amp; Pengemasan</p>
+              <p class="ss-desc" data-lang-key="org-desc-gd">Inventori, Packing &amp; Logistik</p>
+              <hr class="ss-divider">
+              <button class="ss-link" onclick="ssOpenModal('gd')">
+                <span data-lang-key="org-detail-btn">Detail peran</span> <i class="bi bi-box-arrow-up-right ss-link-icon"></i>
+              </button>
+            </div>
+
+            <div class="ss-card ss-card-staff" id="ssCardAdm">
+              <span class="ss-badge" data-lang-key="org-badge-staff">Staf Pelaksana</span>
+              <div class="ss-icon"><i class="bi bi-clipboard2-data-fill"></i></div>
+              <p class="ss-name" data-lang-key="org-name-adm">Staf Admin &amp; Pemasaran</p>
+              <p class="ss-desc" data-lang-key="org-desc-adm">Administrasi, Keuangan &amp; Pesanan</p>
+              <hr class="ss-divider">
+              <button class="ss-link" onclick="ssOpenModal('adm')">
+                <span data-lang-key="org-detail-btn">Detail peran</span> <i class="bi bi-box-arrow-up-right ss-link-icon"></i>
+              </button>
+            </div>
+
+          </div><!-- /.ss-row-staff -->
+        </div><!-- /#ssOrgWrap -->
+
+        <script>
+        (function () {
+
+          var SS_DATA = {
+            owner: {
+              icon: 'bi-patch-check-fill', iconBg: '#eef2ff', iconColor: '#1e3a5f',
+              title: 'Owner (Pemilik)', sub: 'Pimpinan Tertinggi Perusahaan',
+              body: '<p>Owner adalah pemilik sekaligus penanggung jawab penuh atas seluruh operasional dan arah strategis Sari Selaras. Peran ini mencakup pengambilan keputusan tertinggi dalam setiap aspek bisnis, mulai dari kebijakan produksi hingga pengembangan usaha.</p><ul><li>Menetapkan visi, misi, dan tujuan jangka panjang perusahaan.</li><li>Menyetujui kebijakan harga, kemitraan, dan kontrak maklon.</li><li>Mengawasi kinerja keseluruhan dan memastikan tujuan bisnis tercapai.</li><li>Bertanggung jawab atas legalitas usaha dan perizinan produksi.</li><li>Mengambil keputusan strategis terkait investasi dan pengembangan produk baru.</li></ul>'
+            },
+            sup: {
+              icon: 'bi-person-badge-fill', iconBg: '#fffbeb', iconColor: '#d97706',
+              title: 'Supervisor', sub: 'Koordinator Operasional & Produksi',
+              body: '<p>Supervisor berperan sebagai jembatan antara Owner dan seluruh staf pelaksana. Bertanggung jawab memastikan seluruh proses produksi berjalan sesuai standar mutu, jadwal, dan target yang telah ditetapkan.</p><ul><li>Merencanakan dan mengatur jadwal produksi harian/mingguan.</li><li>Mengkoordinasikan kerja sama antara staf produksi, QC, gudang, dan administrasi.</li><li>Memantau realisasi target produksi dan melaporkan perkembangan kepada Owner.</li><li>Menindaklanjuti temuan ketidaksesuaian mutu dari tim QC.</li><li>Memastikan ketersediaan bahan baku dan kesiapan mesin sebelum produksi dimulai.</li><li>Menjadi titik koordinasi utama saat terjadi kendala operasional.</li></ul>'
+            },
+            prod: {
+              icon: 'bi-tools', iconBg: '#ecfdf5', iconColor: '#059669',
+              title: 'Staf Produksi', sub: 'Operator Mesin & Perakitan',
+              body: '<p>Staf Produksi adalah ujung tombak proses manufaktur teh celup herbal di Sari Selaras. Mereka menjalankan seluruh tahapan produksi mulai dari penyiapan bahan baku hingga pengemasan akhir.</p><ul><li>Menerima dan menyortir simplisia herbal sesuai spesifikasi formula.</li><li>Mengoperasikan mesin penggiling dan pencampur bahan herbal.</li><li>Mengoperasikan mesin pencetak dan pengemas tea bag secara presisi.</li><li>Memastikan takaran setiap kantong teh sesuai standar yang ditetapkan.</li><li>Melakukan pelabelan dan pengemasan sekunder (pouch/box) sesuai identitas brand mitra.</li><li>Menjaga kebersihan area produksi sesuai standar higienitas yang berlaku.</li></ul>'
+            },
+            qc: {
+              icon: 'bi-patch-check', iconBg: '#ecfdf5', iconColor: '#059669',
+              title: 'Staf Quality Control (QC)', sub: 'Pemeriksaan & Penjaminan Mutu',
+              body: '<p>Staf QC bertanggung jawab memastikan setiap batch produk yang keluar dari Sari Selaras memenuhi standar mutu yang telah ditetapkan, sehingga mitra maklon dapat memasarkan produknya dengan kepercayaan penuh.</p><ul><li>Memeriksa kualitas simplisia masuk: kebersihan, aroma, kadar air, dan bebas kontaminan.</li><li>Mengecek keseragaman bobot dan kerapatan seal setiap kantong tea bag.</li><li>Memastikan aroma, warna seduhan, dan rasa sesuai standar formula yang disetujui.</li><li>Mendokumentasikan hasil pemeriksaan setiap batch dalam catatan QC.</li><li>Menahan produk yang tidak memenuhi standar untuk proses evaluasi ulang.</li><li>Berkoordinasi dengan Supervisor untuk tindakan perbaikan proses jika ditemukan penyimpangan.</li></ul>'
+            },
+            gd: {
+              icon: 'bi-box-seam-fill', iconBg: '#ecfdf5', iconColor: '#059669',
+              title: 'Staf Gudang & Pengemasan', sub: 'Inventori, Packing & Logistik',
+              body: '<p>Staf Gudang & Pengemasan mengelola alur masuk-keluar bahan baku dan produk jadi, sekaligus memastikan produk tiba di tangan mitra dalam kondisi sempurna.</p><ul><li>Menerima dan mencatat penerimaan bahan baku serta kemasan dari supplier.</li><li>Menyimpan simplisia herbal sesuai prosedur (suhu, kelembaban, pemisahan jenis).</li><li>Mengeluarkan bahan baku ke lini produksi berdasarkan sistem FIFO (First In First Out).</li><li>Melakukan pengemasan sekunder dan tersier produk jadi sebelum pengiriman.</li><li>Menyiapkan dokumen pengiriman (surat jalan, label pengiriman) sesuai pesanan mitra.</li><li>Memantau stok bahan baku dan melaporkan kebutuhan pengadaan kepada Supervisor.</li></ul>'
+            },
+            adm: {
+              icon: 'bi-clipboard2-data-fill', iconBg: '#ecfdf5', iconColor: '#059669',
+              title: 'Staf Admin & Pemasaran', sub: 'Administrasi, Keuangan & Pesanan',
+              body: '<p>Staf Admin & Pemasaran menjadi wajah pertama Sari Selaras bagi para mitra maklon. Mereka mengelola seluruh aspek administratif, komunikasi pelanggan, dan aktivitas pemasaran digital.</p><ul><li>Menerima dan memproses inquiry serta pesanan maklon dari mitra baru maupun existing.</li><li>Mengelola komunikasi melalui WhatsApp, e-mail, dan media sosial secara responsif.</li><li>Membuat penawaran harga, invoice, dan dokumen administrasi lainnya.</li><li>Mencatat dan memonitor status pembayaran serta piutang mitra.</li><li>Mengelola konten media sosial (Instagram, Facebook) untuk promosi layanan maklon.</li><li>Mengumpulkan testimoni dan ulasan mitra untuk keperluan pemasaran.</li></ul>'
+            }
+          };
+
+          /* Bilingual modal data */
+          var SS_DATA_EN = {
+            owner: { title:'Owner (Founder)', sub:'Highest Company Leader', body:'<p>The Owner is the founder and fully responsible for all operations and strategic direction of Sari Selaras.</p><ul><li>Establish the company\'s long-term vision, mission, and goals.</li><li>Approve pricing policies, partnerships, and maklon contracts.</li><li>Oversee overall performance and ensure business objectives are achieved.</li><li>Responsible for business legality and production permits.</li><li>Make strategic decisions regarding investment and new product development.</li></ul>' },
+            sup:   { title:'Supervisor', sub:'Operations & Production Coordinator', body:'<p>The Supervisor acts as a bridge between the Owner and all operational staff, ensuring production processes run according to quality standards and targets.</p><ul><li>Plan and organize daily/weekly production schedules.</li><li>Coordinate collaboration between production, QC, warehouse, and administration staff.</li><li>Monitor production target realization and report progress to the Owner.</li><li>Follow up on quality non-conformance findings from the QC team.</li><li>Ensure raw material availability and machine readiness before production begins.</li><li>Serve as the main coordination point when operational issues arise.</li></ul>' },
+            prod:  { title:'Production Staff', sub:'Machine Operator & Assembly', body:'<p>Production Staff are the frontline of Sari Selaras herbal tea bag manufacturing, carrying out all production stages from raw material preparation to final packaging.</p><ul><li>Receive and sort herbal simplicia according to formula specifications.</li><li>Operate herbal material grinding and mixing machines.</li><li>Operate tea bag printing and packaging machines with precision.</li><li>Ensure each tea bag dose meets the established standards.</li><li>Perform labeling and secondary packaging according to partner brand identity.</li><li>Maintain production area cleanliness according to hygiene standards.</li></ul>' },
+            qc:    { title:'Quality Control Staff (QC)', sub:'Inspection & Quality Assurance', body:'<p>QC Staff ensure every product batch meets established quality standards so maklon partners can market their products with full confidence.</p><ul><li>Inspect incoming simplicia: cleanliness, aroma, moisture content, and contaminant-free.</li><li>Check weight uniformity and seal tightness of each tea bag.</li><li>Ensure aroma, brew color, and taste match approved formula standards.</li><li>Document inspection results for each batch in QC records.</li><li>Hold non-conforming products for re-evaluation.</li><li>Coordinate with the Supervisor for process improvement actions.</li></ul>' },
+            gd:    { title:'Warehouse & Packaging Staff', sub:'Inventory, Packing & Logistics', body:'<p>Warehouse & Packaging Staff manage raw material and finished product flow while ensuring products arrive at partners in perfect condition.</p><ul><li>Receive and record incoming raw materials and packaging from suppliers.</li><li>Store herbal simplicia according to procedures (temperature, humidity, type separation).</li><li>Release raw materials to production line based on FIFO system.</li><li>Perform secondary and tertiary packaging of finished products before shipment.</li><li>Prepare shipping documents according to partner orders.</li><li>Monitor raw material stock and report procurement needs to the Supervisor.</li></ul>' },
+            adm:   { title:'Admin & Marketing Staff', sub:'Administration, Finance & Orders', body:'<p>Admin & Marketing Staff are the first face of Sari Selaras for maklon partners, managing all administrative, customer communication, and digital marketing activities.</p><ul><li>Receive and process maklon inquiries and orders from new and existing partners.</li><li>Manage communication via WhatsApp, email, and social media responsively.</li><li>Create price quotes, invoices, and other administrative documents.</li><li>Record and monitor payment status and partner receivables.</li><li>Manage social media content for maklon service promotion.</li><li>Collect partner testimonials and reviews for marketing purposes.</li></ul>' }
+          };
+          var SS_DATA_ID = JSON.parse(JSON.stringify(SS_DATA));
+          window.SS_DATA_LANG = function(lang) {
+            var src = lang === 'en' ? SS_DATA_EN : SS_DATA_ID;
+            Object.keys(src).forEach(function(k) {
+              if (SS_DATA[k]) {
+                SS_DATA[k].title = src[k].title;
+                SS_DATA[k].sub   = src[k].sub;
+                SS_DATA[k].body  = src[k].body;
+              }
+            });
+          };
+
+          window.ssOpenModal = function (key) {
+            var d = SS_DATA[key];
+            if (!d) return;
+            var icon = document.getElementById('ssModalIcon');
+            icon.style.background = d.iconBg;
+            icon.style.color      = d.iconColor;
+            icon.innerHTML = '<i class="bi ' + d.icon + '"></i>';
+            document.getElementById('ssModalTitle').textContent = d.title;
+            document.getElementById('ssModalSub').textContent   = d.sub;
+            document.getElementById('ssModalBody').innerHTML    = d.body;
+            document.getElementById('ssModalOverlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+          };
+
+          function ssCloseModal() {
+            document.getElementById('ssModalOverlay').classList.remove('active');
+            document.body.style.overflow = '';
+          }
+          document.getElementById('ssModalClose').addEventListener('click', ssCloseModal);
+          document.getElementById('ssModalOverlay').addEventListener('click', function(e) {
+            if (e.target === this) ssCloseModal();
+          });
+          document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') ssCloseModal();
+          });
+
+          /* SVG Connector */
+          function cx(el, wrap) {
+            var r = el.getBoundingClientRect(), w = wrap.getBoundingClientRect();
+            return r.left + r.width / 2 - w.left;
+          }
+          function bottom(el, wrap) {
+            var r = el.getBoundingClientRect(), w = wrap.getBoundingClientRect();
+            return r.bottom - w.top;
+          }
+          function top(el, wrap) {
+            var r = el.getBoundingClientRect(), w = wrap.getBoundingClientRect();
+            return r.top - w.top;
+          }
+
+          function drawLines() {
+            if (window.innerWidth < 768) return;
+            var wrap    = document.getElementById('ssOrgWrap');
+            var svg     = document.getElementById('ssConnSvg');
+            var owner   = document.getElementById('ssCardOwner');
+            var supCard = document.getElementById('ssCardSup');
+            var staffCards = [
+              document.getElementById('ssCardProd'),
+              document.getElementById('ssCardQc'),
+              document.getElementById('ssCardGd'),
+              document.getElementById('ssCardAdm')
+            ];
+            if (!wrap || !svg || !owner || !supCard) return;
+            var W = wrap.getBoundingClientRect().width;
+            var H = wrap.getBoundingClientRect().height;
+            svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+            svg.setAttribute('width', W);
+            svg.setAttribute('height', H);
+            var stroke = '#cbd5e1', sw = '2', lines = '';
+
+            /* Owner → Supervisor */
+            var ownerBtm = bottom(owner, wrap);
+            var supTop   = top(supCard, wrap);
+            var ownerCx  = cx(owner, wrap);
+            lines += '<line x1="' + ownerCx + '" y1="' + ownerBtm + '" x2="' + ownerCx + '" y2="' + supTop + '" stroke="' + stroke + '" stroke-width="' + sw + '"/>';
+
+            /* Supervisor → bus */
+            var supBtm   = bottom(supCard, wrap);
+            var supCx    = cx(supCard, wrap);
+            var firstTop = top(staffCards[0], wrap);
+            var busY     = supBtm + (firstTop - supBtm) / 2;
+            lines += '<line x1="' + supCx + '" y1="' + supBtm + '" x2="' + supCx + '" y2="' + busY + '" stroke="' + stroke + '" stroke-width="' + sw + '"/>';
+
+            /* Bus horizontal */
+            var x1bus = cx(staffCards[0], wrap);
+            var x2bus = cx(staffCards[staffCards.length - 1], wrap);
+            lines += '<line x1="' + x1bus + '" y1="' + busY + '" x2="' + x2bus + '" y2="' + busY + '" stroke="' + stroke + '" stroke-width="' + sw + '"/>';
+
+            /* Tangkai ke tiap staf */
+            for (var i = 0; i < staffCards.length; i++) {
+              var scx   = cx(staffCards[i], wrap);
+              var stTop = top(staffCards[i], wrap);
+              lines += '<line x1="' + scx + '" y1="' + busY + '" x2="' + scx + '" y2="' + stTop + '" stroke="' + stroke + '" stroke-width="' + sw + '"/>';
+            }
+            svg.innerHTML = lines;
+          }
+
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', drawLines);
+          } else { drawLines(); }
+          window.addEventListener('resize', drawLines);
+          window.addEventListener('load', drawLines);
+          document.addEventListener('aos:in', function() { setTimeout(drawLines, 50); });
+        })();
+        </script>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Portfolio / Produk Section ======= -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-lang-key="portfolio-h2">Contoh Produk yang Telah Dibuat</h2>
+        <p data-lang-key="portfolio-p">Beragam produk teh celup herbal berbasis resep saintifik yang dibutuhkan masyarakat</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card pf-card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+              <a href="assets/img/products/product-1-detox.jpg" class="pf-img-link ss-lightbox" data-gallery="produk-sari-selaras" data-glightbox="title: Detox-Slim &amp; Slimming Tea; description: Kombinasi daun jati belanda, teh hijau, asam gelugur, dan rempah pilihan untuk membantu program diet sehat dan melancarkan pencernaan.">
+                <div class="pf-img-wrap">
+                  <img src="assets/img/products/product-1-detox.jpg" class="card-img-top" style="width:100%;aspect-ratio:4/3;object-fit:contain;background:#f8fafc;padding:8px;" alt="Naruna Detox Slim Tea">
+                  <div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div>
+                </div>
+              </a>
+              <div class="card-body">
+                <span class="badge bg-success mb-2"><span data-lang-key="pf-badge1">Best Seller</span></span>
+                <h5 class="card-title fw-bold" data-lang-key="pf1-h">Detox-Slim &amp; Slimming Tea</h5>
+                <p class="card-text small text-muted" data-lang-key="pf1-p">Kombinasi daun jati belanda, teh hijau, asam gelugur, dan rempah pilihan untuk membantu program diet sehat dan melancarkan pencernaan.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card pf-card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+              <a href="assets/img/products/product-2-spearmint.jpg" class="pf-img-link ss-lightbox" data-gallery="produk-sari-selaras" data-glightbox="title: Spearmint &amp; Kesehatan Kulit; description: Formulasi khusus daun spearmint, chamomile, dan herbal antioksidan untuk membantu kesehatan kulit, jerawat hormonal, dan keseimbangan PCOS.">
+                <div class="pf-img-wrap">
+                  <img src="assets/img/products/product-2-spearmint.jpg" class="card-img-top" style="width:100%;aspect-ratio:4/3;object-fit:contain;background:#f8fafc;padding:8px;" alt="Spearmint Skin Balance Tea">
+                  <div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div>
+                </div>
+              </a>
+              <div class="card-body">
+                <span class="badge bg-info text-dark mb-2"><span data-lang-key="pf-badge2">Beauty &amp; Hormon</span></span>
+                <h5 class="card-title fw-bold" data-lang-key="pf2-h">Spearmint &amp; Kesehatan Kulit</h5>
+                <p class="card-text small text-muted" data-lang-key="pf2-p">Formulasi khusus daun spearmint, chamomile, dan herbal antioksidan untuk membantu kesehatan kulit, jerawat hormonal, dan keseimbangan PCOS.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card pf-card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+              <a href="assets/img/products/product-3-jsr.jpg" class="pf-img-link ss-lightbox" data-gallery="produk-sari-selaras" data-glightbox="title: Herbal Racikan JSR; description: Racikan rimpang (jahe, kunyit, sereh, lengkuas) dalam bentuk teh celup praktis tanpa ampas untuk menjaga daya tahan tubuh harian.">
+                <div class="pf-img-wrap">
+                  <img src="assets/img/products/product-3-jsr.jpg" class="card-img-top" style="width:100%;aspect-ratio:4/3;object-fit:contain;background:#f8fafc;padding:8px;" alt="Herbal Racikan JSR Nannys">
+                  <div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div>
+                </div>
+              </a>
+              <div class="card-body">
+                <span class="badge bg-warning text-dark mb-2"><span data-lang-key="pf-badge3">Tren Herbal</span></span>
+                <h5 class="card-title fw-bold" data-lang-key="pf3-h">Herbal Racikan JSR</h5>
+                <p class="card-text small text-muted" data-lang-key="pf3-p">Racikan rimpang (jahe, kunyit, sereh, lengkuas) dalam bentuk teh celup praktis tanpa ampas untuk menjaga daya tahan tubuh harian.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card pf-card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+              <a href="assets/img/products/product-4-antihipertensi.jpg" class="pf-img-link ss-lightbox" data-gallery="produk-sari-selaras" data-glightbox="title: Anti-Hipertensi &amp; Anti-Diabetes; description: Teh celup kumis kucing, tempuyung, keji beling yang diformulasikan untuk membantu menjaga tekanan darah dan kadar gula darah.">
+                <div class="pf-img-wrap">
+                  <img src="assets/img/products/product-4-antihipertensi.jpg" class="card-img-top" style="width:100%;aspect-ratio:4/3;object-fit:contain;background:#f8fafc;padding:8px;" alt="Anti Hipertensi Tea">
+                  <div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div>
+                </div>
+              </a>
+              <div class="card-body">
+                <span class="badge bg-primary mb-2"><span data-lang-key="pf-badge4">Jamu Saintifik</span></span>
+                <h5 class="card-title fw-bold" data-lang-key="pf4-h">Anti-Hipertensi &amp; Anti-Diabetes</h5>
+                <p class="card-text small text-muted" data-lang-key="pf4-p">Teh celup kumis kucing, tempuyung, keji beling yang diformulasikan untuk membantu menjaga tekanan darah dan kadar gula darah.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="card pf-card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+              <a href="assets/img/products/product-5-classictea.jpg" class="pf-img-link ss-lightbox" data-gallery="produk-sari-selaras" data-glightbox="title: Teh Hijau, Teh Hitam &amp; Bunga Telang; description: Single-origin tea dan flower tea blend (rosella, telang, melati, krisan) dengan aroma autentik untuk segmen kafe maupun ritel.">
+                <div class="pf-img-wrap">
+                  <img src="assets/img/products/product-5-classictea.jpg" class="card-img-top" style="width:100%;aspect-ratio:4/3;object-fit:contain;background:#f8fafc;padding:8px;" alt="Classic Herbal Tea">
+                  <div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div>
+                </div>
+              </a>
+              <div class="card-body">
+                <span class="badge bg-secondary mb-2"><span data-lang-key="pf-badge5">Classic Tea</span></span>
+                <h5 class="card-title fw-bold" data-lang-key="pf5-h">Teh Hijau, Teh Hitam &amp; Bunga Telang</h5>
+                <p class="card-text small text-muted" data-lang-key="pf5-p">Single-origin tea dan flower tea blend (rosella, telang, melati, krisan) dengan aroma autentik untuk segmen kafe maupun ritel.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="card pf-card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+              <a href="assets/img/products/product-6-sendi.jpg" class="pf-img-link ss-lightbox" data-gallery="produk-sari-selaras" data-glightbox="title: Kesehatan Sendi &amp; Kesegaran Tubuh; description: Formula herbal khusus untuk kesehatan sendi/otot serta teh daun sirih &amp; pandan untuk membantu mengurangi bau badan dan bau mulut.">
+                <div class="pf-img-wrap">
+                  <img src="assets/img/products/product-6-sendi.jpg" class="card-img-top" style="width:100%;aspect-ratio:4/3;object-fit:contain;background:#f8fafc;padding:8px;" alt="Herbal Sendi dan Otot">
+                  <div class="pf-zoom-overlay"><i class="bi bi-zoom-in"></i></div>
+                </div>
+              </a>
+              <div class="card-body">
+                <span class="badge bg-success mb-2"><span data-lang-key="pf-badge6">Custom Formula</span></span>
+                <h5 class="card-title fw-bold" data-lang-key="pf6-h">Kesehatan Sendi &amp; Kesegaran Tubuh</h5>
+                <p class="card-text small text-muted" data-lang-key="pf6-p">Formula herbal khusus untuk kesehatan sendi/otot serta teh daun sirih &amp; pandan untuk membantu mengurangi bau badan dan bau mulut.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+        <style>
+          .pf-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+            background-color: #ffffff;
+          }
+          .pf-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 36px rgba(16,185,129,0.14) !important;
+            background-color: #f0fdf4 !important;
+          }
+          .pf-card:hover .card-title {
+            color: #15803d !important;
+            transition: color 0.2s;
+          }
+
+          /* Wrapper gambar untuk efek zoom hover */
+          .pf-img-link {
+            display: block;
+            text-decoration: none;
+          }
+          .pf-img-wrap {
+            position: relative;
+            overflow: hidden;
+            background: #f8fafc;
+          }
+          .pf-img-wrap img {
+            transition: transform 0.4s ease;
+            display: block;
+          }
+          .pf-img-link:hover .pf-img-wrap img {
+            transform: scale(1.06);
+          }
+          /* Overlay ikon zoom saat hover */
+          .pf-zoom-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(21, 128, 61, 0.45);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+          }
+          .pf-zoom-overlay i {
+            color: #ffffff;
+            font-size: 2rem;
+            filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
+          }
+          .pf-img-link:hover .pf-zoom-overlay {
+            opacity: 1;
+          }
+          /* Kursor tanda bisa diklik */
+          .pf-img-link { cursor: zoom-in; }
+        </style>
+
+    <!-- ======= Packaging / Pilihan Kemasan Section ======= -->
+    <section id="packaging" class="packaging section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-lang-key="packaging-h2">Pilihan Kemasan Produk</h2>
+        <p data-lang-key="packaging-p">Tersedia kemasan standing pouch, box full printing, dan karton &#8212; sesuaikan dengan identitas dan target pasar brand Anda</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card pkg-card border-0 shadow-sm rounded-4 h-100 text-center p-4">
+              <div class="icon mb-3 text-success fs-1"><i class="bi bi-bag-check"></i></div>
+              <h5 class="fw-bold" data-lang-key="pkg1-h">Standing Pouch</h5>
+              <p class="small text-muted mb-0" data-lang-key="pkg1-p">Kemasan pouch berdiri dengan stiker label brand. Praktis dan ramah biaya untuk uji pasar.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card pkg-card border-0 shadow-sm rounded-4 h-100 text-center p-4">
+              <div class="icon mb-3 text-success fs-1"><i class="bi bi-box-seam"></i></div>
+              <h5 class="fw-bold" data-lang-key="pkg2-h">Box Full Printing</h5>
+              <p class="small text-muted mb-0" data-lang-key="pkg2-p">Dus cetak full color custom desain. Tampilan eksklusif siap apotek, ritel modern, &amp; marketplace.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card pkg-card border-0 shadow-sm rounded-4 h-100 text-center p-4">
+              <div class="icon mb-3 text-success fs-1"><i class="bi bi-box2"></i></div>
+              <h5 class="fw-bold" data-lang-key="pkg3-h">Karton</h5>
+              <p class="small text-muted mb-0" data-lang-key="pkg3-p">Kemasan karton kokoh untuk kemasan luar maupun dus pengaman produk.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <style>
+        .pkg-card { transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; background-color:#ffffff; }
+        .pkg-card:hover { transform:translateY(-8px); box-shadow:0 16px 36px rgba(16,185,129,0.14) !important; background-color:#f0fdf4 !important; }
+        .pkg-card:hover h5 { color:#15803d; transition:color 0.2s; }
+        .pkg-card:hover .icon i { color:#15803d !important; }
+      </style>
+    </section><!-- End Packaging Section -->
+
+    <!-- ======= CTA Section ======= -->
+    <section id="cta" class="section bg-success" style="position:relative; overflow:hidden;">
+
+      <!-- Background image transparan -->
+      <div style="
+        position:absolute; inset:0;
+        background-image: url('assets/img/why-tea.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.10;
+        pointer-events: none;
+        z-index: 0;
+      " aria-hidden="true"></div>
+
+      <!-- Ornamen lingkaran dekoratif kiri & kanan -->
+      <div style="
+        position:absolute; top:-60px; left:-60px;
+        width:260px; height:260px; border-radius:50%;
+        background: rgba(255,255,255,0.07);
+        pointer-events:none; z-index:0;
+      " aria-hidden="true"></div>
+      <div style="
+        position:absolute; bottom:-80px; right:-50px;
+        width:300px; height:300px; border-radius:50%;
+        background: rgba(255,255,255,0.06);
+        pointer-events:none; z-index:0;
+      " aria-hidden="true"></div>
+
+      <div class="container text-center" data-aos="zoom-out" style="position:relative; z-index:1;">
+        <h2 class="text-white fw-bold mb-3" data-lang-key="cta-h2">Realisasikan Produk Anda Bersama Kami</h2>
+        <p class="text-white mb-4" data-lang-key="cta-p">Manfaatkan jasa maklon teh celup herbal untuk membuat produk dengan merk Anda sendiri.</p>
+        <a href="https://wa.me/6281328441901?text=Halo%20Sari%20Selaras,%20saya%20ingin%20konsultasi%20maklon%20teh%20herbal." target="_blank" class="btn btn-light btn-lg cta-wa-btn"><i class="bi bi-whatsapp me-2 text-success"></i><span data-lang-key="cta-btn">Hubungi WA Kami</span></a>
+      </div>
+    </section><!-- End CTA Section -->
+
+    <style>
+      .cta-wa-btn {
+        transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+      }
+      .cta-wa-btn:hover {
+        background-color: #bbf7d0 !important;
+        color: #14532d !important;
+        box-shadow: 0 8px 24px rgba(16,185,129,0.30) !important;
+        transform: translateY(-3px);
+      }
+      .cta-wa-btn:hover i {
+        color: #15803d !important;
+      }
+    </style>
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-lang-key="contact-h2">Hubungi & Kunjungi Rumah Produksi Kami</h2>
+        <p data-lang-key="contact-p">Siap mengubah ide teh herbal menjadi produk brand Anda sendiri? Konsultasikan sekarang</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+            <div class="info-wrap bg-light p-4 rounded-4 h-100">
+
+              <div class="info-item d-flex mb-4">
+                <i class="bi bi-geo-alt flex-shrink-0 fs-4 text-success me-3"></i>
+                <div>
+                  <h5 class="fw-bold mb-1" data-lang-key="contact-addr-label">Rumah Produksi</h5>
+                  <p class="mb-1" data-lang-key="contact-addr-val">Bumen Wetan Gang Asoka RT 09, Baturetno, Kec. Banguntapan, Kab. Bantul, Daerah Istimewa Yogyakarta</p>
+                  <a href="https://www.google.com/maps?ll=-7.727967,110.613679&z=10&t=m&hl=en-US&gl=US&mapclient=embed&q=Sari+Selaras" target="_blank" class="small fw-semibold text-success">
+                    <span data-lang-key="contact-maps-link">Buka di Google Maps</span> <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="info-item d-flex mb-4">
+                <i class="bi bi-whatsapp flex-shrink-0 fs-4 text-success me-3"></i>
+                <div>
+                  <h5 class="fw-bold mb-1" data-lang-key="contact-wa-label">Hubungi Kami (CS)</h5>
+                  <p class="mb-1">081-328-44-1901</p>
+                  <a href="https://wa.me/6281328441901?text=Halo%20Sari%20Selaras,%20saya%20ingin%20konsultasi%20maklon%20teh%20herbal." target="_blank" class="small fw-semibold text-success">
+                    <span data-lang-key="contact-wa-link">Chat WhatsApp Sekarang</span> <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="info-item d-flex mb-4">
+                <i class="bi bi-clock flex-shrink-0 fs-4 text-success me-3"></i>
+                <div>
+                  <h5 class="fw-bold mb-1" data-lang-key="contact-jam-label">Jam Pelayanan</h5>
+                  <p class="mb-1" data-lang-key="contact-jam-val">08:00 - 16:00 WIB</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex mb-4">
+                <i class="bi bi-instagram flex-shrink-0 fs-4 text-success me-3"></i>
+                <div>
+                  <h5 class="fw-bold mb-1" data-lang-key="contact-ig-label">Instagram</h5>
+                  <p class="mb-1">@sariselaras</p>
+                  <a href="https://www.instagram.com/sariselaras/" target="_blank" class="small fw-semibold text-success">
+                    <span data-lang-key="contact-ig-link">Kunjungi Instagram</span> <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="info-item d-flex">
+                <i class="bi bi-facebook flex-shrink-0 fs-4 text-success me-3"></i>
+                <div>
+                  <h5 class="fw-bold mb-1" data-lang-key="contact-fb-label">Facebook</h5>
+                  <p class="mb-1" data-lang-key="contact-fb-page">Jasa Maklon Teh Celup</p>
+                  <a href="https://web.facebook.com/JasaMaklonTeh/" target="_blank" class="small fw-semibold text-success">
+                    <span data-lang-key="contact-fb-link">Kunjungi Facebook</span> <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="rounded-4 overflow-hidden shadow-sm h-100" style="min-height: 380px;">
+              <iframe
+                src="https://www.google.com/maps?q=Sari+Selaras&ll=-7.727967,110.613679&z=10&t=m&output=embed"
+                width="100%"
+                height="100%"
+                style="border:0; min-height: 380px;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer dark-background">
+    <div class="container footer-top py-5">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="#hero" class="logo d-flex align-items-center gap-2 mb-3 text-decoration-none" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">
+            <div class="ss-logo-icon" aria-hidden="true"></div>
+            <span class="ss-logo-text">Sari Selaras</span>
+          </a>
+          <p data-lang-key="footer-desc">Produsen teh herbal dan penyedia layanan jasa maklon teh celup herbal terpercaya. Melayani dari bahan mentah hingga menjadi produk siap jual, terintegrasi sehingga kualitasnya terjaga.</p>
+          <div class="social-links d-flex mt-4 gap-3">
+            <a href="https://wa.me/6281328441901" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.instagram.com/sariselaras/" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://web.facebook.com/JasaMaklonTeh/" target="_blank" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.google.com/maps?ll=-7.727967,110.613679&z=10&t=m&hl=en-US&gl=US&mapclient=embed&q=Sari+Selaras" target="_blank" title="Lokasi Maps"><i class="bi bi-geo-alt"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-6 footer-links">
+          <h4 data-lang-key="footer-nav-h">Navigasi</h4>
+          <ul class="list-unstyled">
+            <li><a href="#hero" data-lang-key="footer-nav1">Beranda</a></li>
+            <li><a href="#about" data-lang-key="footer-nav2">Tentang Kami</a></li>
+            <li><a href="#services" data-lang-key="footer-nav3">Jasa Maklon Teh</a></li>
+            <li><a href="#why-us" data-lang-key="footer-nav4">Keunggulan</a></li>
+            <li><a href="#team" data-lang-key="footer-nav5">Tim Kami</a></li>
+            <li><a href="#portfolio" data-lang-key="footer-nav6">Produk</a></li>
+            <li><a href="#contact" data-lang-key="footer-nav7">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-contact">
+          <h4 data-lang-key="footer-contact-h">Kontak Produksi</h4>
+          <p data-lang-key="footer-addr1">Bumen Wetan Gang Asoka RT 09, Baturetno</p>
+          <p data-lang-key="footer-addr2">Banguntapan, Bantul, DI Yogyakarta</p>
+          <p class="mt-3"><strong>WhatsApp:</strong> <span>+62 813-2844-1901</span></p>
+          <p><strong data-lang-key="footer-hours-label">Jam Pelayanan:</strong> <span data-lang-key="footer-hours-val">08:00 - 16:00 WIB</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center py-3 border-top border-secondary">
+      <p class="mb-0">&copy; <span>2026</span> <strong class="px-1 sitename">Sari Selaras</strong> <span data-lang-key="footer-copy">- Jasa Maklon Teh Celup Herbal. All Rights Reserved.</span></p>
+      <p class="mb-0 mt-1" style="font-size:0.85rem; color: rgba(255,255,255,0.55);"><span data-lang-key="footer-credit">Dibuat oleh</span> <strong>Kelompok E6</strong></p>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/6281328441901?text=Halo%20Sari%20Selaras,%20saya%20ingin%20konsultasi%20maklon%20teh%20herbal." class="float-wa" target="_blank" title="Chat WhatsApp Sari Selaras">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- SS Lightbox: popup gambar — custom, tanpa library tambahan -->
+  <style>
+    /* ── SS Lightbox overlay ── */
+    #ssLbOverlay {
+      display: none;
+      position: fixed; inset: 0; z-index: 99999;
+      background: rgba(0,0,0,0.92);
+      align-items: center; justify-content: center;
+      animation: ssLbFadeIn 0.22s ease;
+    }
+    #ssLbOverlay.open { display: flex; }
+    @keyframes ssLbFadeIn { from { opacity:0; } to { opacity:1; } }
+
+    #ssLbImg {
+      max-width: 90vw; max-height: 82vh;
+      border-radius: 8px;
+      box-shadow: 0 8px 48px rgba(0,0,0,0.6);
+      display: block;
+      animation: ssLbZoomIn 0.25s cubic-bezier(0.4,0,0.2,1);
+      object-fit: contain;
+    }
+    @keyframes ssLbZoomIn { from { transform:scale(0.88); opacity:0; } to { transform:scale(1); opacity:1; } }
+
+    #ssLbCaption {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      background: linear-gradient(transparent, rgba(0,0,0,0.75));
+      color: #fff; padding: 20px 24px 16px;
+      text-align: center;
+    }
+    #ssLbCaption strong { display: block; font-size: 1rem; }
+    #ssLbCaption span   { font-size: 0.82rem; color: rgba(255,255,255,0.72); }
+
+    .ss-lb-close {
+      position: absolute; top: 16px; right: 20px;
+      background: rgba(255,255,255,0.12); border: none; border-radius: 50%;
+      width: 40px; height: 40px; color: #fff; font-size: 1.3rem;
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+      transition: background 0.2s;
+    }
+    .ss-lb-close:hover { background: rgba(255,255,255,0.25); }
+
+    .ss-lb-nav {
+      position: absolute; top: 50%; transform: translateY(-50%);
+      background: rgba(255,255,255,0.15); border: none; border-radius: 50%;
+      width: 44px; height: 44px; color: #fff; font-size: 1.3rem;
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+      transition: background 0.2s;
+    }
+    .ss-lb-nav:hover { background: rgba(255,255,255,0.3); }
+    #ssLbPrev { left: 16px; }
+    #ssLbNext { right: 16px; }
+    .ss-lb-nav.hidden { display: none; }
+
+    #ssLbCounter {
+      position: absolute; top: 16px; left: 20px;
+      color: rgba(255,255,255,0.65); font-size: 0.82rem;
+    }
+  </style>
+
+  <!-- Lightbox HTML -->
+  <div id="ssLbOverlay" role="dialog" aria-modal="true" aria-label="Lihat Gambar">
+    <span id="ssLbCounter"></span>
+    <button class="ss-lb-close" id="ssLbClose" aria-label="Tutup"><i class="bi bi-x-lg"></i></button>
+    <button class="ss-lb-nav" id="ssLbPrev" aria-label="Sebelumnya"><i class="bi bi-chevron-left"></i></button>
+    <img id="ssLbImg" src="" alt="">
+    <button class="ss-lb-nav" id="ssLbNext" aria-label="Berikutnya"><i class="bi bi-chevron-right"></i></button>
+    <div id="ssLbCaption"><strong id="ssLbTitle"></strong><span id="ssLbDesc"></span></div>
+  </div>
+
+  <script>
+  (function () {
+    var overlay  = document.getElementById('ssLbOverlay');
+    var img      = document.getElementById('ssLbImg');
+    var title    = document.getElementById('ssLbTitle');
+    var desc     = document.getElementById('ssLbDesc');
+    var counter  = document.getElementById('ssLbCounter');
+    var btnClose = document.getElementById('ssLbClose');
+    var btnPrev  = document.getElementById('ssLbPrev');
+    var btnNext  = document.getElementById('ssLbNext');
+
+    var gallery = [];   /* array of {src, title, desc} */
+    var cur     = 0;
+
+    function parseGlightbox(el) {
+      /* Baca dari data-glightbox="title: X; description: Y" */
+      var raw = el.getAttribute('data-glightbox') || '';
+      var t = '', d = '';
+      var tm = raw.match(/title:\s*([^;]+)/);
+      var dm = raw.match(/description:\s*(.+)/);
+      if (tm) t = tm[1].trim();
+      if (dm) d = dm[1].trim();
+      return { src: el.getAttribute('href'), title: t, desc: d };
+    }
+
+    function show(items, idx) {
+      gallery = items;
+      cur     = idx;
+      render();
+      overlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function render() {
+      var item = gallery[cur];
+      /* Animasi ulang */
+      img.style.animation = 'none';
+      img.offsetHeight;                /* reflow */
+      img.style.animation = '';
+      img.src  = item.src;
+      img.alt  = item.title;
+      title.textContent = item.title;
+      desc.textContent  = item.desc;
+      counter.textContent = gallery.length > 1 ? (cur + 1) + ' / ' + gallery.length : '';
+      btnPrev.classList.toggle('hidden', gallery.length <= 1);
+      btnNext.classList.toggle('hidden', gallery.length <= 1);
+    }
+
+    function close() {
+      overlay.classList.remove('open');
+      document.body.style.overflow = '';
+      img.src = '';
+    }
+
+    function prev() { cur = (cur - 1 + gallery.length) % gallery.length; render(); }
+    function next() { cur = (cur + 1) % gallery.length; render(); }
+
+    btnClose.addEventListener('click', close);
+    btnPrev.addEventListener('click', prev);
+    btnNext.addEventListener('click', next);
+
+    overlay.addEventListener('click', function(e) {
+      if (e.target === overlay) close();
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (!overlay.classList.contains('open')) return;
+      if (e.key === 'Escape')     close();
+      if (e.key === 'ArrowLeft')  prev();
+      if (e.key === 'ArrowRight') next();
+    });
+
+    /* Swipe support */
+    var touchX = 0;
+    overlay.addEventListener('touchstart', function(e) { touchX = e.touches[0].clientX; }, { passive: true });
+    overlay.addEventListener('touchend', function(e) {
+      var dx = touchX - e.changedTouches[0].clientX;
+      if (Math.abs(dx) > 40) { dx > 0 ? next() : prev(); }
+    }, { passive: true });
+
+    /* Bind semua link ss-lb saat DOM siap */
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('a[data-gallery]').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          var galleryName = link.getAttribute('data-gallery');
+          /* Ambil semua item dalam gallery yang sama */
+          var items = [];
+          document.querySelectorAll('a[data-gallery="' + galleryName + '"]').forEach(function(el) {
+            items.push(parseGlightbox(el));
+          });
+          var idx = items.findIndex(function(it) { return it.src === link.getAttribute('href'); });
+          show(items, Math.max(0, idx));
+        });
+      });
+    });
+
+    /* Expose untuk update bahasa */
+    window._ssLbUpdateAttr = function() { /* atribut sudah diupdate langsung di DOM */ };
+    window._ssLbHero = window._ssLbAbout = window._ssLbWhyus = window._ssLbProduk =
+      { destroy: function(){} };
+  })();
+  </script>
+
+  <!-- Header scroll effect -->
+  <script>
+    (function () {
+      var header = document.getElementById('header');
+      if (!header) return;
+      function updateHeader() {
+        if (window.scrollY > 60) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      }
+      window.addEventListener('scroll', updateHeader, { passive: true });
+      updateHeader();
+    })();
+  </script>
+
+  <!-- Search + Language Switch Script -->
+  <script>
+  (function () {
+
+    var LANG = {
+      id: {
+        /* Nav */
+        'nav-beranda':'Beranda','nav-tentang':'Tentang Kami','nav-jasa':'Jasa Maklon Teh',
+        'nav-unggulan':'Keunggulan','nav-tim':'Tim Kami','nav-produk':'Produk','nav-kontak':'Kontak',
+        'search-placeholder':'Cari layanan, produk, informasi...',
+        /* Hero */
+        'hero-badge':'Spesialis Maklon Teh Celup Herbal',
+        'hero-h1':'Wujudkan Brand Teh Celup Herbal Anda Sendiri dengan Layanan Maklon Terpercaya',
+        'hero-p':'Proses mudah, Legalitas lengkap, Formulasi sesuai keinginan Anda, Mulai dengan modal terjangkau.',
+        'feat-formula':'Formula Custom','feat-kemasan':'Kemasan Kekinian','feat-produksi':'Produksi Terstandar',
+        /* About */
+        'about-h3':'Punya Brand Teh Celup Sendiri Tidak Harus Bikin Pabrik',
+        'about-info':'Karena biaya operasionalnya bersifat fixed cost, Anda tidak perlu menanggung investasi mesin maupun tenaga produksi.',
+        'about-italic':'Teh celup herbal adalah solusi gaya hidup sehat yang praktis. Dengan tren konsumsi herbal yang terus meningkat, Anda bisa memiliki produk dengan merek sendiri tanpa harus pusing memikirkan mesin dan tenaga produksi. Seluruh proses dari bahan mentah hingga produk jadi kami kerjakan terintegrasi sehingga kualitasnya terjaga.',
+        'about-li1':'Fokus Pengembangan Brand & Marketing:','about-li1-desc':'Urusan bahan baku, peracikan, hingga pengemasan kami yang tangani.',
+        'about-li2':'Dapat HPP Pabrik Lebih Ekonomis:','about-li2-desc':'Efisiensi biaya berkat jaringan supplier bahan herbal terverifikasi.',
+        'about-li3':'Formulasi Berbasis Resep Saintifik:','about-li3-desc':'Dikembangkan bersama tenaga farmasi berpengalaman sesuai kebutuhan konsumen Anda.',
+        'about-li4':'Pendampingan Legalitas & Kemasan:','about-li4-desc':'Siap membantu mulai dari konsep desain hingga pendampingan perizinan edar.',
+        'about-cta':'Konsultasi Sekarang',
+        /* Services */
+        'services-h2':'Jasa Maklon Teh Celup Herbal',
+        'services-p':'Teh celup herbal adalah solusi bagi masyarakat suka minum herbal tetapi praktis dalam penyajian. Dengan jasa maklon teh celup herbal, Anda bisa membuat produk ini tanpa harus investasi sarana produksi — cukup hubungi kami untuk mewujudkan ide Anda.',
+        'srv1-h':'Maklon Teh Celup Herbal','srv1-p':'Produksi teh celup single-ingredient maupun racikan multi-herbal (tea bag & tag/benang) dengan penyeduhan praktis yang menjaga aroma dan khasiat alami.',
+        'srv2-h':'R&D Formulasi Custom','srv2-p':'Pengembangan formula khusus sesuai target pasar Anda (Diet/Slimming, Kesehatan Kulit/Jerawat, Promil/PCOS, Jamu Saintifik, hingga Teh Relaksasi).',
+        'srv3-h':'Pengemasan & Alufoil Custom','srv3-p':'Layanan pengemasan primer kantong aluminium foil higienis serta kemasan sekunder berupa Standing Pouch, Inner Box (Dus) full printing, maupun Karton sesuai identitas brand Anda.',
+        'srv4-h':'Desain Kemasan Produk','srv4-p':'Belum punya desain? Tim kami siap membantu merancang konsep visual kemasan yang menarik, profesional, dan sesuai standar regulasi pelabelan produk.',
+        'srv5-h':'Quality Control Terstandar','srv5-p':'Setiap tahapan mulai dari pemilihan simplisia, pengeringan, penggilingan, pencampuran, hingga pengemasan diawasi ketat oleh tenaga farmasi profesional.',
+        'srv6-h':'Konsultasi Legalitas Produk','srv6-p':'Pendampingan dokumen dan spesifikasi teknis produk untuk mendukung pengurusan izin edar (P-IRT / BPOM / Halal) agar produk Anda aman dipasarkan luas.',
+        /* Why Us */
+        'why-h2':'Keunggulan Maklon di Sari Selaras',
+        'why-p':'Dari bahan mentah hingga menjadi produk jadi kami kerjakan terintegrasi — sehingga kualitasnya terjaga',
+        'why1-h':'01. Dikerjakan Tenaga Farmasi Berpengalaman','why1-p':'Formulasi dan pengawasan mutu ditangani langsung oleh tenaga farmasi berpengalaman di bidang pengolahan herbal.',
+        'why2-h':'02. Fasilitas & Mesin Produksi Terstandar','why2-p':'Fasilitas produksi terstandar dengan mesin pengemas teh celup otomatis untuk menjaga kebersihan, takaran presisi, dan kerapatan seal.',
+        'why3-h':'03. Bahan Baku Segar & Proses Terintegrasi','why3-p':'Bahan baku segar dari jaringan supplier herbal terverifikasi. Dari bahan mentah hingga produk jadi dikerjakan terintegrasi sehingga kualitas terjaga.',
+        'why4-h':'04. MOQ Fleksibel & HPP Lebih Rendah','why4-p':'Minimum order fleksibel, ramah bagi pebisnis pemula & UMKM. Produksi efisien dengan HPP lebih rendah sehingga margin keuntungan brand Anda tetap optimal.',
+        /* Team */
+        'team-h2':'Struktur Organisasi',
+        'team-p':'Tim profesional Sari Selaras yang berdedikasi memastikan setiap produk maklon teh celup herbal dikerjakan dengan standar kualitas terbaik',
+        /* Portfolio */
+        'portfolio-h2':'Contoh Produk yang Telah Dibuat',
+        'portfolio-p':'Beragam produk teh celup herbal berbasis resep saintifik yang dibutuhkan masyarakat',
+        'pf1-h':'Detox-Slim & Slimming Tea','pf1-p':'Kombinasi daun jati belanda, teh hijau, asam gelugur, dan rempah pilihan untuk membantu program diet sehat dan melancarkan pencernaan.',
+        'pf2-h':'Spearmint & Kesehatan Kulit','pf2-p':'Formulasi khusus daun spearmint, chamomile, dan herbal antioksidan untuk membantu kesehatan kulit, jerawat hormonal, dan keseimbangan PCOS.',
+        'pf3-h':'Herbal Racikan JSR','pf3-p':'Racikan rimpang (jahe, kunyit, sereh, lengkuas) dalam bentuk teh celup praktis tanpa ampas untuk menjaga daya tahan tubuh harian.',
+        'pf4-h':'Anti-Hipertensi & Anti-Diabetes','pf4-p':'Teh celup kumis kucing, tempuyung, keji beling yang diformulasikan untuk membantu menjaga tekanan darah dan kadar gula darah.',
+        'pf5-h':'Teh Hijau, Teh Hitam & Bunga Telang','pf5-p':'Single-origin tea dan flower tea blend (rosella, telang, melati, krisan) dengan aroma autentik untuk segmen kafe maupun ritel.',
+        'pf6-h':'Kesehatan Sendi & Kesegaran Tubuh','pf6-p':'Formula herbal khusus untuk kesehatan sendi/otot serta teh daun sirih & pandan untuk membantu mengurangi bau badan dan bau mulut.',
+        /* Packaging */
+        'packaging-h2':'Pilihan Kemasan Produk',
+        'packaging-p':'Tersedia kemasan standing pouch, box full printing, dan karton — sesuaikan dengan identitas dan target pasar brand Anda',
+        'pkg1-h':'Standing Pouch','pkg1-p':'Kemasan pouch berdiri dengan stiker label brand. Praktis dan ramah biaya untuk uji pasar.',
+        'pkg2-h':'Box Full Printing','pkg2-p':'Dus cetak full color custom desain. Tampilan eksklusif siap apotek, ritel modern, & marketplace.',
+        'pkg3-h':'Karton','pkg3-p':'Kemasan karton kokoh untuk kemasan luar maupun dus pengaman produk.',
+        /* CTA */
+        'cta-h2':'Realisasikan Produk Anda Bersama Kami',
+        'cta-p':'Manfaatkan jasa maklon teh celup herbal untuk membuat produk dengan merk Anda sendiri.',
+        'cta-btn':'Hubungi WA Kami',
+        /* Contact */
+        'contact-h2':'Hubungi & Kunjungi Rumah Produksi Kami',
+        'contact-p':'Siap mengubah ide teh herbal menjadi produk brand Anda sendiri? Konsultasikan sekarang',
+        'contact-addr-h':'Rumah Produksi','contact-wa-h':'Hubungi Kami (CS)','contact-jam-h':'Jam Pelayanan','contact-ig-h':'Instagram','contact-fb-h':'Facebook',
+        /* Footer */
+        'footer-desc':'Produsen teh herbal dan penyedia layanan jasa maklon teh celup herbal terpercaya. Melayani dari bahan mentah hingga menjadi produk siap jual, terintegrasi sehingga kualitasnya terjaga.',
+        'footer-nav-h':'Navigasi','footer-contact-h':'Kontak Produksi',
+        'footer-nav1':'Beranda','footer-nav2':'Tentang Kami','footer-nav3':'Jasa Maklon Teh','footer-nav4':'Keunggulan','footer-nav5':'Tim Kami','footer-nav6':'Produk','footer-nav7':'Kontak',
+        /* Org chart cards */
+        'org-badge-owner':'Owner','org-name-owner':'Owner (Pemilik)','org-desc-owner':'Pimpinan Tertinggi Perusahaan',
+        'org-badge-sup':'Supervisor','org-name-sup':'Supervisor','org-desc-sup':'Koordinator Operasional & Produksi',
+        'org-badge-staff':'Staf Pelaksana',
+        'org-name-prod':'Staf Produksi','org-desc-prod':'Operator Mesin & Perakitan',
+        'org-name-qc':'Staf Quality Control (QC)','org-desc-qc':'Pemeriksaan & Penjaminan Mutu',
+        'org-name-gd':'Staf Gudang & Pengemasan','org-desc-gd':'Inventori, Packing & Logistik',
+        'org-name-adm':'Staf Admin & Pemasaran','org-desc-adm':'Administrasi, Keuangan & Pesanan',
+        'org-detail-btn':'Detail peran',
+        /* Portfolio badges */
+        'pf-badge1':'Best Seller','pf-badge2':'Beauty & Hormone','pf-badge3':'Herbal Trend',
+        'pf-badge4':'Scientific Jamu','pf-badge5':'Classic Tea','pf-badge6':'Custom Formula',
+        /* Contact labels */
+        'contact-addr-label':'Production House',
+        'contact-wa-label':'Contact Us (CS)',
+        'contact-jam-label':'Service Hours',
+        'contact-ig-label':'Instagram',
+        'contact-fb-label':'Facebook',
+        'contact-maps-link':'Open in Google Maps',
+        'contact-wa-link':'Chat WhatsApp Now',
+        'contact-ig-link':'Visit Instagram',
+        'contact-fb-link':'Visit Facebook',
+        'footer-nav-h':'Navigation','footer-contact-h':'Production Contact'
+      },
+      en: {        /* Nav */
+        'nav-beranda':'Home','nav-tentang':'About Us','nav-jasa':'Tea Maklon Service',
+        'nav-unggulan':'Advantages','nav-tim':'Our Team','nav-produk':'Products','nav-kontak':'Contact',
+        'search-placeholder':'Search services, products, information...',
+        /* Hero */
+        'hero-badge':'Herbal Tea Bag Maklon Specialist',
+        'hero-h1':'Build Your Own Herbal Tea Bag Brand with Our Trusted Maklon Service',
+        'hero-p':'Easy process, complete legality, custom formulation, start with affordable capital.',
+        'feat-formula':'Custom Formula','feat-kemasan':'Modern Packaging','feat-produksi':'Standardized Production',
+        /* About */
+        'about-h3':'Own a Tea Bag Brand Without Building a Factory',
+        'about-info':'Since operational costs are fixed costs, you do not need to invest in machinery or production staff.',
+        'about-italic':'Herbal tea bags are a practical healthy lifestyle solution. With growing herbal consumption trends, you can have your own branded product without worrying about machines or production staff. The entire process from raw materials to finished products is integrated to maintain quality.',
+        'about-li1':'Brand & Marketing Focus:','about-li1-desc':'We handle raw materials, formulation, and packaging for you.',
+        'about-li2':'Lower Factory Production Cost:','about-li2-desc':'Cost efficiency through our network of verified herbal suppliers.',
+        'about-li3':'Scientific Recipe-Based Formulation:','about-li3-desc':'Developed with experienced pharmaceutical staff according to your consumers\' needs.',
+        'about-li4':'Legality & Packaging Assistance:','about-li4-desc':'Ready to help from design concept to business permit assistance.',
+        'about-cta':'Consult Now',
+        /* Services */
+        'services-h2':'Herbal Tea Bag Maklon Services',
+        'services-p':'Herbal tea bags are a solution for people who love herbal drinks but prefer convenience. With our herbal tea bag maklon service, you can create this product without investing in production facilities — just contact us to realize your idea.',
+        'srv1-h':'Herbal Tea Bag Maklon','srv1-p':'Production of single-ingredient or multi-herbal blended tea bags (tea bag & tag/string) with practical brewing that preserves aroma and natural benefits.',
+        'srv2-h':'R&D Custom Formulation','srv2-p':'Custom formula development tailored to your target market (Diet/Slimming, Skin Health/Acne, Fertility/PCOS, Scientific Jamu, or Relaxation Tea).',
+        'srv3-h':'Custom Packaging & Alufoil','srv3-p':'Primary packaging service using hygienic aluminum foil pouches and secondary packaging including Standing Pouch, full-print Inner Box, or Carton to match your brand identity.',
+        'srv4-h':'Product Packaging Design','srv4-p':'No design yet? Our team is ready to help create an attractive, professional packaging concept that meets product labeling regulatory standards.',
+        'srv5-h':'Standardized Quality Control','srv5-p':'Every stage from simplicia selection, drying, grinding, mixing, to packaging is strictly supervised by professional pharmaceutical staff.',
+        'srv6-h':'Product Legality Consultation','srv6-p':'Document and technical specification assistance to support business permit applications (P-IRT / BPOM / Halal) so your product is safe for wide distribution.',
+        /* Why Us */
+        'why-h2':'Why Choose Sari Selaras Maklon',
+        'why-p':'From raw materials to finished products we work in an integrated manner — so quality is maintained',
+        'why1-h':'01. Handled by Experienced Pharmaceutical Staff','why1-p':'Formulation and quality control are handled directly by experienced pharmaceutical staff in herbal processing.',
+        'why2-h':'02. Standardized Production Facilities & Machinery','why2-p':'Standardized production facilities with automatic tea bag packaging machines to maintain cleanliness, precise dosing, and seal tightness.',
+        'why3-h':'03. Fresh Raw Materials & Integrated Process','why3-p':'Fresh raw materials from a verified herbal supplier network. From raw materials to finished products worked in an integrated manner so quality is maintained.',
+        'why4-h':'04. Flexible MOQ & Lower Production Cost','why4-p':'Flexible minimum order, friendly for beginner entrepreneurs & SMEs. Efficient production with lower costs so your brand profit margin stays optimal.',
+        /* Team */
+        'team-h2':'Organizational Structure',
+        'team-p':'Sari Selaras professional team dedicated to ensuring every herbal tea bag maklon product is made to the highest quality standards',
+        /* Portfolio */
+        'portfolio-h2':'Sample Products We Have Made',
+        'portfolio-p':'Various herbal tea bag products based on scientific recipes needed by the community',
+        'pf1-h':'Detox-Slim & Slimming Tea','pf1-p':'Combination of jati belanda leaves, green tea, asam gelugur, and selected spices to help a healthy diet program and improve digestion.',
+        'pf2-h':'Spearmint & Skin Health','pf2-p':'Special formulation of spearmint leaves, chamomile, and antioxidant herbs to help skin health, hormonal acne, and PCOS balance.',
+        'pf3-h':'JSR Herbal Blend','pf3-p':'A blend of rhizomes (ginger, turmeric, lemongrass, galangal) in a practical residue-free tea bag to maintain daily immune system.',
+        'pf4-h':'Anti-Hypertension & Anti-Diabetes','pf4-p':'Cat whiskers, tempuyung, keji beling tea bags formulated to help maintain blood pressure and blood sugar levels.',
+        'pf5-h':'Green Tea, Black Tea & Butterfly Pea','pf5-p':'Single-origin tea and flower tea blend (rosella, butterfly pea, jasmine, chrysanthemum) with authentic aroma for café and retail segments.',
+        'pf6-h':'Joint Health & Body Freshness','pf6-p':'Special herbal formula for joint/muscle health and betel leaf & pandan tea to help reduce body and mouth odor.',
+        /* Packaging */
+        'packaging-h2':'Packaging Options',
+        'packaging-p':'Available in standing pouch, full-print box, and carton — adjust to your brand identity and target market',
+        'pkg1-h':'Standing Pouch','pkg1-p':'Standing pouch with brand sticker label. Practical and cost-friendly for market testing.',
+        'pkg2-h':'Full Print Box','pkg2-p':'Full color custom design printed box. Exclusive look ready for pharmacy, modern retail, & marketplace.',
+        'pkg3-h':'Carton','pkg3-p':'Sturdy carton packaging for outer packaging or product safety box.',
+        /* CTA */
+        'cta-h2':'Realize Your Product With Us',
+        'cta-p':'Use our herbal tea bag maklon service to create a product with your own brand.',
+        'cta-btn':'Contact Us on WhatsApp',
+        /* Contact */
+        'contact-h2':'Contact & Visit Our Production House',
+        'contact-p':'Ready to turn your herbal tea idea into your own brand product? Consult now',
+        'contact-addr-h':'Production House','contact-wa-h':'Contact Us (CS)','contact-jam-h':'Service Hours','contact-ig-h':'Instagram','contact-fb-h':'Facebook',
+        /* Footer */
+        'footer-desc':'Herbal tea producer and trusted herbal tea bag maklon service provider. From raw materials to ready-to-sell products, integrated so quality is maintained.',
+        'footer-nav-h':'Navigation','footer-contact-h':'Production Contact',
+        'footer-nav1':'Home','footer-nav2':'About Us','footer-nav3':'Tea Maklon Service','footer-nav4':'Advantages','footer-nav5':'Our Team','footer-nav6':'Products','footer-nav7':'Contact',
+        /* Org chart cards */
+        'org-badge-owner':'Owner','org-name-owner':'Owner (Founder)','org-desc-owner':'Highest Company Leader',
+        'org-badge-sup':'Supervisor','org-name-sup':'Supervisor','org-desc-sup':'Operations & Production Coordinator',
+        'org-badge-staff':'Staff',
+        'org-name-prod':'Production Staff','org-desc-prod':'Machine Operator & Assembly',
+        'org-name-qc':'Quality Control Staff (QC)','org-desc-qc':'Inspection & Quality Assurance',
+        'org-name-gd':'Warehouse & Packaging Staff','org-desc-gd':'Inventory, Packing & Logistics',
+        'org-name-adm':'Admin & Marketing Staff','org-desc-adm':'Administration, Finance & Orders',
+        'org-detail-btn':'View role',
+        /* Portfolio badges */
+        'pf-badge1':'Best Seller','pf-badge2':'Beauty \u0026 Hormone','pf-badge3':'Herbal Trend',
+        'pf-badge4':'Scientific Jamu','pf-badge5':'Classic Tea','pf-badge6':'Custom Formula',
+        'pf1-h':'Detox-Slim \u0026 Slimming Tea',
+        'pf1-p':'Combination of jati belanda leaves, green tea, asam gelugur, and selected spices to help a healthy diet program and improve digestion.',
+        'pf2-h':'Spearmint \u0026 Skin Health',
+        'pf2-p':'Special formulation of spearmint leaves, chamomile, and antioxidant herbs to help skin health, hormonal acne, and PCOS balance.',
+        'pf3-h':'JSR Herbal Blend',
+        'pf3-p':'A blend of rhizomes (ginger, turmeric, lemongrass, galangal) in a practical residue-free tea bag to maintain daily immune system.',
+        'pf4-h':'Anti-Hypertension \u0026 Anti-Diabetes',
+        'pf4-p':'Cat whiskers, tempuyung, keji beling tea bags formulated to help maintain blood pressure and blood sugar levels.',
+        'pf5-h':'Green Tea, Black Tea \u0026 Butterfly Pea',
+        'pf5-p':'Single-origin tea and flower tea blend (rosella, butterfly pea, jasmine, chrysanthemum) with authentic aroma for caf\u00e9 and retail segments.',
+        'pf6-h':'Joint Health \u0026 Body Freshness',
+        'pf6-p':'Special herbal formula for joint/muscle health and betel leaf \u0026 pandan tea to help reduce body and mouth odor.',
+        /* Contact labels */
+        'contact-addr-label':'Production House',
+        'contact-wa-label':'Contact Us (CS)',
+        'contact-jam-label':'Service Hours',
+        'contact-ig-label':'Instagram',
+        'contact-fb-label':'Facebook',
+        'contact-maps-link':'Open in Google Maps',
+        'contact-wa-link':'Chat WhatsApp Now',
+        'contact-ig-link':'Visit Instagram',
+        'contact-fb-link':'Visit Facebook',
+        'footer-nav-h':'Navigation','footer-contact-h':'Production Contact'
+      }
+    };
+
+    var currentLang = localStorage.getItem('ss-lang') || 'id';
+
+    function applyLang(lang) {
+      currentLang = lang;
+      localStorage.setItem('ss-lang', lang);
+      var data = LANG[lang];
+      document.querySelectorAll('[data-lang-key]').forEach(function(el) {
+        var key = el.getAttribute('data-lang-key');
+        if (!data[key]) return;
+        if (el.tagName === 'INPUT') { el.placeholder = data[key]; }
+        else { el.textContent = data[key]; }
+      });
+
+      /* Org chart ss-name elements (tidak bisa pakai data-lang-key karena
+         beberapa punya whitespace/inner HTML yang berbeda-beda) */
+      var orgNameMap = {
+        'ssCardOwner': ['org-name-owner','org-desc-owner'],
+        'ssCardSup'  : ['org-name-sup',  'org-desc-sup'  ],
+        'ssCardProd' : ['org-name-prod', 'org-desc-prod' ],
+        'ssCardQc'   : ['org-name-qc',   'org-desc-qc'   ],
+        'ssCardGd'   : ['org-name-gd',   'org-desc-gd'   ],
+        'ssCardAdm'  : ['org-name-adm',  'org-desc-adm'  ]
+      };
+      Object.keys(orgNameMap).forEach(function(id) {
+        var card = document.getElementById(id);
+        if (!card) return;
+        var nameKey = orgNameMap[id][0], descKey = orgNameMap[id][1];
+        var nameEl = card.querySelector('.ss-name');
+        var descEl = card.querySelector('.ss-desc');
+        if (nameEl && data[nameKey]) nameEl.textContent = data[nameKey];
+        if (descEl && data[descKey]) descEl.textContent = data[descKey];
+      });
+
+      /* Update SS_DATA modal content language */
+      if (window.SS_DATA_LANG) { window.SS_DATA_LANG(lang); }
+
+      document.getElementById('ssLangID').classList.toggle('active', lang === 'id');
+      document.getElementById('ssLangEN').classList.toggle('active', lang === 'en');
+      document.documentElement.lang = lang === 'en' ? 'en' : 'id';
+
+      /* ── Update atribut data-glightbox sesuai bahasa ── */
+      var LIGHTBOX_DATA = {
+        id: {
+          about: [
+            { sel: 'a[data-gallery="about-sari-selaras"]', title: 'Produk Maklon Sari Selaras', desc: 'Produk teh celup herbal dengan brand Anda sendiri — dari bahan mentah hingga siap jual.' }
+          ],
+          whyus: [
+            { title: 'Tenaga Farmasi Berpengalaman',           desc: 'Formulasi dan pengawasan mutu ditangani langsung oleh tenaga farmasi berpengalaman di bidang pengolahan herbal.' },
+            { title: 'Fasilitas Produksi Terstandar',          desc: 'Fasilitas produksi terstandar dengan mesin pengemas teh celup otomatis untuk menjaga kebersihan, takaran presisi, dan kerapatan seal.' },
+            { title: 'Bahan Baku Alami',                       desc: 'Bahan baku segar dari jaringan supplier herbal terverifikasi untuk menjaga kualitas produk.' },
+            { title: 'MOQ Fleksibel & HPP Kompetitif',         desc: 'Minimum order fleksibel, ramah bagi pebisnis pemula dan UMKM dengan HPP yang lebih rendah.' },
+            { title: 'Proses Produksi Profesional',            desc: 'Seluruh proses produksi dikerjakan secara profesional dan terstandar oleh tim Sari Selaras.' }
+          ],
+          hero: [
+            { title: 'Herbal Anti-Obesitas',   desc: 'Produk teh celup herbal anti-obesitas hasil maklon Sari Selaras.' },
+            { title: 'Antioxidant Beauty Tea', desc: 'Teh celup antioksidan untuk kecantikan kulit alami hasil maklon Sari Selaras.' },
+            { title: 'Glowing Alami',          desc: 'Teh celup herbal untuk kulit glowing alami dari dalam hasil maklon Sari Selaras.' },
+            { title: 'HerbaTrek',              desc: 'Produk teh herbal premium HerbaTrek hasil maklon Sari Selaras.' },
+            { title: 'Kumis Kucing',           desc: 'Teh celup herbal kumis kucing untuk kesehatan ginjal dan saluran kemih hasil maklon Sari Selaras.' }
+          ],
+          produk: [
+            { title: 'Detox-Slim & Slimming Tea',              desc: 'Kombinasi daun jati belanda, teh hijau, asam gelugur, dan rempah pilihan untuk membantu program diet sehat dan melancarkan pencernaan.' },
+            { title: 'Spearmint & Kesehatan Kulit',             desc: 'Formulasi khusus daun spearmint, chamomile, dan herbal antioksidan untuk membantu kesehatan kulit, jerawat hormonal, dan keseimbangan PCOS.' },
+            { title: 'Herbal Racikan JSR',                      desc: 'Racikan rimpang (jahe, kunyit, sereh, lengkuas) dalam bentuk teh celup praktis tanpa ampas untuk menjaga daya tahan tubuh harian.' },
+            { title: 'Anti-Hipertensi & Anti-Diabetes',         desc: 'Teh celup kumis kucing, tempuyung, keji beling yang diformulasikan untuk membantu menjaga tekanan darah dan kadar gula darah.' },
+            { title: 'Teh Hijau, Teh Hitam & Bunga Telang',     desc: 'Single-origin tea dan flower tea blend (rosella, telang, melati, krisan) dengan aroma autentik untuk segmen kafe maupun ritel.' },
+            { title: 'Kesehatan Sendi & Kesegaran Tubuh',       desc: 'Formula herbal khusus untuk kesehatan sendi/otot serta teh daun sirih & pandan untuk membantu mengurangi bau badan dan bau mulut.' }
+          ]
+        },
+        en: {
+          about: [
+            { title: 'Sari Selaras Maklon Products', desc: 'Herbal tea bag products with your own brand — from raw materials to ready-to-sell.' }
+          ],
+          whyus: [
+            { title: 'Experienced Pharmaceutical Staff',       desc: 'Formulation and quality control handled directly by experienced pharmaceutical staff in herbal processing.' },
+            { title: 'Standardized Production Facilities',     desc: 'Standardized facilities with automatic tea bag packaging machines to maintain cleanliness, precise dosing, and seal tightness.' },
+            { title: 'Natural Raw Materials',                  desc: 'Fresh raw materials from a verified herbal supplier network to maintain product quality.' },
+            { title: 'Flexible MOQ & Competitive Cost',        desc: 'Flexible minimum order, friendly for beginner entrepreneurs and SMEs with lower production costs.' },
+            { title: 'Professional Production Process',        desc: 'The entire production process is carried out professionally and to standard by the Sari Selaras team.' }
+          ],
+          hero: [
+            { title: 'Herbal Anti-Obesity',    desc: 'Herbal anti-obesity tea bag product made by Sari Selaras maklon service.' },
+            { title: 'Antioxidant Beauty Tea', desc: 'Antioxidant tea bag for natural skin beauty made by Sari Selaras maklon service.' },
+            { title: 'Natural Glowing',        desc: 'Herbal tea bag for natural glowing skin from within made by Sari Selaras maklon service.' },
+            { title: 'HerbaTrek',              desc: 'Premium herbal tea product HerbaTrek made by Sari Selaras maklon service.' },
+            { title: 'Cat Whiskers Tea',       desc: 'Cat whiskers herbal tea bag for kidney and urinary tract health made by Sari Selaras maklon service.' }
+          ],
+          produk: [
+            { title: 'Detox-Slim & Slimming Tea',              desc: 'Combination of jati belanda leaves, green tea, asam gelugur, and selected spices to help a healthy diet program and improve digestion.' },
+            { title: 'Spearmint & Skin Health',                desc: 'Special formulation of spearmint leaves, chamomile, and antioxidant herbs to help skin health, hormonal acne, and PCOS balance.' },
+            { title: 'JSR Herbal Blend',                       desc: 'A blend of rhizomes (ginger, turmeric, lemongrass, galangal) in a practical residue-free tea bag to maintain daily immune system.' },
+            { title: 'Anti-Hypertension & Anti-Diabetes',      desc: 'Cat whiskers, tempuyung, keji beling tea bags formulated to help maintain blood pressure and blood sugar levels.' },
+            { title: 'Green Tea, Black Tea & Butterfly Pea',   desc: 'Single-origin tea and flower tea blend (rosella, butterfly pea, jasmine, chrysanthemum) with authentic aroma for café and retail segments.' },
+            { title: 'Joint Health & Body Freshness',          desc: 'Special herbal formula for joint/muscle health and betel leaf & pandan tea to help reduce body and mouth odor.' }
+          ]
+        }
+      };
+
+      var langSrc = lang === 'en' ? LIGHTBOX_DATA.en : LIGHTBOX_DATA.id;
+
+      /* About */
+      var aboutLinks = document.querySelectorAll('a[data-gallery="about-sari-selaras"]');
+      aboutLinks.forEach(function(el, i) {
+        if (!langSrc.about[i]) return;
+        el.setAttribute('data-glightbox', 'title: ' + langSrc.about[i].title + '; description: ' + langSrc.about[i].desc);
+      });
+
+      /* Why Us */
+      var whyLinks = document.querySelectorAll('a[data-gallery="whyus-sari-selaras"]');
+      whyLinks.forEach(function(el, i) {
+        if (!langSrc.whyus[i]) return;
+        el.setAttribute('data-glightbox', 'title: ' + langSrc.whyus[i].title + '; description: ' + langSrc.whyus[i].desc);
+      });
+
+      /* Hero */
+      var heroLinks = document.querySelectorAll('a[data-gallery="hero-sari-selaras"]');
+      heroLinks.forEach(function(el, i) {
+        if (!langSrc.hero[i]) return;
+        el.setAttribute('data-glightbox', 'title: ' + langSrc.hero[i].title + '; description: ' + langSrc.hero[i].desc);
+      });
+
+      /* Produk */
+      var allLinks = document.querySelectorAll('a[data-gallery="produk-sari-selaras"]');
+      var langData = langSrc.produk;
+      allLinks.forEach(function(el, i) {
+        if (!langData[i]) return;
+        el.setAttribute('data-glightbox', 'title: ' + langData[i].title + '; description: ' + langData[i].desc);
+      });
+
+      /* Lightbox custom baca atribut data-glightbox langsung saat klik — tidak perlu rebuild */
+    }
+
+    window.ssSetLang = function(lang) { applyLang(lang); };
+    document.addEventListener('DOMContentLoaded', function() { applyLang(currentLang); });
+
+    /* ── Search ── */
+    var searchBtn   = document.getElementById('ssSearchBtn');
+    var searchBar   = document.getElementById('ssSearchBar');
+    var searchInput = document.getElementById('ssSearchInput');
+    var searchClose = document.getElementById('ssSearchClose');
+    var searchResults = document.getElementById('ssSearchResults');
+
+    var sections = [
+      {
+        key:['beranda','home','hero','halaman utama'],
+        anchor:'#hero',
+        icon:'bi-house-fill',
+        name:'Beranda',
+        name_en:'Home',
+        desc:'Halaman utama website Sari Selaras'
+      },
+      {
+        key:['tentang','about','kami','profil','company','perusahaan'],
+        anchor:'#about',
+        icon:'bi-info-circle-fill',
+        name:'Tentang Kami',
+        name_en:'About Us',
+        desc:'Profil dan keunggulan Sari Selaras'
+      },
+      {
+        key:['jasa','maklon','teh','service','tea','layanan','celup','herbal','produksi'],
+        anchor:'#services',
+        icon:'bi-cup-hot-fill',
+        name:'Jasa Maklon Teh',
+        name_en:'Tea Maklon Service',
+        desc:'Layanan maklon teh celup herbal kami'
+      },
+      {
+        key:['keunggulan','advantage','unggulan','kelebihan','kenapa','why','pilih'],
+        anchor:'#why-us',
+        icon:'bi-stars',
+        name:'Keunggulan',
+        name_en:'Advantages',
+        desc:'Mengapa memilih Sari Selaras'
+      },
+      {
+        key:['tim','team','struktur','organization','pegawai','staf','karyawan','organisasi'],
+        anchor:'#team',
+        icon:'bi-people-fill',
+        name:'Tim Kami',
+        name_en:'Our Team',
+        desc:'Struktur organisasi Sari Selaras'
+      },
+      {
+        key:['produk','product','contoh','sample','katalog','catalog'],
+        anchor:'#portfolio',
+        icon:'bi-grid-3x3-gap-fill',
+        name:'Produk',
+        name_en:'Products',
+        desc:'Contoh produk teh celup herbal'
+      },
+      {
+        key:['kemasan','packaging','pouch','box','karton','standing','carton','bungkus'],
+        anchor:'#packaging',
+        icon:'bi-box-seam-fill',
+        name:'Kemasan',
+        name_en:'Packaging',
+        desc:'Pilihan kemasan produk brand Anda'
+      },
+      {
+        key:['kontak','contact','hubungi','alamat','address','lokasi','location','telepon','wa','whatsapp'],
+        anchor:'#contact',
+        icon:'bi-telephone-fill',
+        name:'Kontak',
+        name_en:'Contact',
+        desc:'Lokasi & cara menghubungi kami'
+      }
+    ];
+
+    var focusIdx = -1;
+
+    function openSearch()  {
+      searchBar.classList.add('open');
+      setTimeout(function(){ searchInput && searchInput.focus(); }, 60);
+    }
+    function closeSearch() {
+      searchBar.classList.remove('open');
+      if(searchInput) searchInput.value = '';
+      hideResults();
+    }
+    function hideResults() {
+      if(searchResults) { searchResults.classList.remove('show'); searchResults.innerHTML = ''; }
+      focusIdx = -1;
+    }
+
+    function scrollToSection(anchor) {
+      closeSearch();
+      var target = document.querySelector(anchor);
+      if(target) {
+        setTimeout(function(){
+          window.scrollTo({ top: target.offsetTop - 80, behavior: 'smooth' });
+        }, 150);
+      }
+    }
+
+    function buildResults(q) {
+      if(!searchResults) return;
+      var lang = currentLang || 'id';
+      if(!q) { hideResults(); return; }
+      var matched = [];
+      sections.forEach(function(s) {
+        var score = 0;
+        s.key.forEach(function(k) {
+          if(q.includes(k)) score += 2;
+          else if(k.includes(q)) score += 1;
+        });
+        if(score > 0) matched.push({ s: s, score: score });
+      });
+      matched.sort(function(a,b){ return b.score - a.score; });
+
+      if(matched.length === 0) {
+        searchResults.innerHTML = '<div class="ss-result-empty"><i class="bi bi-search me-2"></i>Tidak ditemukan untuk "<strong>' + escHtml(q) + '</strong>"</div>';
+      } else {
+        searchResults.innerHTML = matched.map(function(m, i){
+          var nm = lang === 'en' ? (m.s.name_en || m.s.name) : m.s.name;
+          return '<div class="ss-result-item" role="option" tabindex="-1" data-anchor="' + m.s.anchor + '">' +
+            '<div class="ss-result-icon"><i class="bi ' + m.s.icon + '"></i></div>' +
+            '<div class="flex-grow-1 min-w-0">' +
+              '<div class="ss-result-name">' + escHtml(nm) + '</div>' +
+              '<div class="ss-result-desc">' + escHtml(m.s.desc) + '</div>' +
+            '</div>' +
+            '<div class="ss-result-match"><i class="bi bi-arrow-return-left"></i></div>' +
+          '</div>';
+        }).join('');
+        /* Bind klik tiap item */
+        searchResults.querySelectorAll('.ss-result-item').forEach(function(el){
+          el.addEventListener('mousedown', function(e){
+            e.preventDefault();
+            scrollToSection(el.getAttribute('data-anchor'));
+          });
+        });
+      }
+      searchResults.classList.add('show');
+      focusIdx = -1;
+    }
+
+    function escHtml(s) {
+      return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    if(searchBtn)   searchBtn.addEventListener('click', openSearch);
+    if(searchClose) searchClose.addEventListener('click', closeSearch);
+    document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeSearch(); });
+
+    if(searchInput) {
+      /* Live typing */
+      searchInput.addEventListener('input', function(){
+        var q = searchInput.value.trim().toLowerCase();
+        buildResults(q);
+      });
+
+      /* Keyboard navigation */
+      searchInput.addEventListener('keydown', function(e) {
+        var items = searchResults ? searchResults.querySelectorAll('.ss-result-item') : [];
+        if(e.key === 'ArrowDown') {
+          e.preventDefault();
+          focusIdx = Math.min(focusIdx + 1, items.length - 1);
+          items.forEach(function(el,i){ el.classList.toggle('focused', i===focusIdx); });
+          if(items[focusIdx]) items[focusIdx].scrollIntoView({block:'nearest'});
+        } else if(e.key === 'ArrowUp') {
+          e.preventDefault();
+          focusIdx = Math.max(focusIdx - 1, -1);
+          items.forEach(function(el,i){ el.classList.toggle('focused', i===focusIdx); });
+        } else if(e.key === 'Enter') {
+          e.preventDefault();
+          if(focusIdx >= 0 && items[focusIdx]) {
+            scrollToSection(items[focusIdx].getAttribute('data-anchor'));
+          } else {
+            /* Jika tidak ada yang difokus, langsung scroll ke hasil pertama */
+            var q = searchInput.value.trim().toLowerCase();
+            if(q && items.length > 0) {
+              scrollToSection(items[0].getAttribute('data-anchor'));
+            } else if(q) {
+              closeSearch();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          }
+        }
+      });
+
+      /* Tutup hasil saat klik luar */
+      document.addEventListener('click', function(e){
+        if(searchBar && !searchBar.contains(e.target)) hideResults();
+      });
+    }
+
+  })();
+  </script>
+
+</body>
+
+</html>
